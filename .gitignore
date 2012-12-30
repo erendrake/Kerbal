@@ -4,3 +4,6 @@
 !.gitignore
 !saves/*
 !saves/**/*
+!saves/**/**/*
+!saves/**/**/**/*
+.DS_Store
