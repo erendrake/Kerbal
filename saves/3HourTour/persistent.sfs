@@ -1,0 +1,3929 @@
+GAME
+{
+	version = 0.18.4
+	Title = 3HourTour (Sandbox)
+	Description = No description available.
+	Mode = 0
+	Status = 1
+	scene = 5
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.18.4
+		UT = 19581.6153515794
+		activeVessel = 15
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 3
+			ToD = 21549.1753515788
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 3
+			ToD = 21549.1753515788
+			idx = 1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 3
+			ToD = 21549.1753515788
+			idx = 2
+		}
+		CREW
+		{
+			name = Ludry Kerman
+			brave = 0.7108173
+			dumb = 0.1269594
+			badS = False
+			state = 0
+			ToD = 7846.7399999997
+			idx = 0
+		}
+		CREW
+		{
+			name = Shelmy Kerman
+			brave = 0.4809116
+			dumb = 0.5791929
+			badS = True
+			state = 0
+			ToD = 7846.7399999997
+			idx = 1
+		}
+		CREW
+		{
+			name = Richnard Kerman
+			brave = 0.7713871
+			dumb = 0.9133563
+			badS = True
+			state = 0
+			ToD = 7846.7399999997
+			idx = 2
+		}
+		CREW
+		{
+			name = Corfel Kerman
+			brave = 0.4145713
+			dumb = 0.9918785
+			badS = False
+			state = 0
+			ToD = 3202.1399999992
+			idx = 0
+		}
+		CREW
+		{
+			name = Joeby Kerman
+			brave = 0.3464691
+			dumb = 0.5540258
+			badS = False
+			state = 0
+			ToD = 3202.1399999992
+			idx = 1
+		}
+		CREW
+		{
+			name = Edgas Kerman
+			brave = 0.8279907
+			dumb = 0.8936219
+			badS = False
+			state = 0
+			ToD = 3202.1399999992
+			idx = 2
+		}
+		CREW
+		{
+			name = Tommund Kerman
+			brave = 0.7314589
+			dumb = 0.4158203
+			badS = False
+			state = 0
+			ToD = 3289.77999999913
+			idx = 0
+		}
+		CREW
+		{
+			name = Cambur Kerman
+			brave = 0.3206118
+			dumb = 0.5255322
+			badS = False
+			state = 0
+			ToD = 3289.77999999913
+			idx = 1
+		}
+		CREW
+		{
+			name = Chadlorf Kerman
+			brave = 0.6148801
+			dumb = 0.3992425
+			badS = True
+			state = 0
+			ToD = 3289.77999999913
+			idx = 2
+		}
+		CREW
+		{
+			name = Alcas Kerman
+			brave = 0.3981918
+			dumb = 0.7949857
+			badS = False
+			state = 0
+			ToD = 8525.5199999991
+			idx = 0
+		}
+		CREW
+		{
+			name = Gusbree Kerman
+			brave = 0.7215558
+			dumb = 0.408367
+			badS = True
+			state = 0
+			ToD = 8525.5199999991
+			idx = 1
+		}
+		CREW
+		{
+			name = Joested Kerman
+			brave = 0.9267453
+			dumb = 0.7259673
+			badS = True
+			state = 0
+			ToD = 8525.5199999991
+			idx = 2
+		}
+		CREW
+		{
+			name = Anfrod Kerman
+			brave = 0.2563209
+			dumb = 0.01768351
+			badS = False
+			state = 0
+			ToD = 8591.03999999904
+			idx = 0
+		}
+		CREW
+		{
+			name = Hudmore Kerman
+			brave = 0.2592176
+			dumb = 0.0840354
+			badS = False
+			state = 0
+			ToD = 8591.03999999904
+			idx = 1
+		}
+		CREW
+		{
+			name = Shepner Kerman
+			brave = 0.3538561
+			dumb = 0.7443837
+			badS = False
+			state = 0
+			ToD = 8591.03999999904
+			idx = 2
+		}
+		CREW
+		{
+			name = Obmy Kerman
+			brave = 0.8092251
+			dumb = 0.9922962
+			badS = False
+			state = 0
+			ToD = 8645.05999999898
+			idx = 0
+		}
+		CREW
+		{
+			name = Halcott Kerman
+			brave = 0.7547336
+			dumb = 0.1647326
+			badS = False
+			state = 0
+			ToD = 8645.05999999898
+			idx = 1
+		}
+		CREW
+		{
+			name = Lorick Kerman
+			brave = 0.04915214
+			dumb = 0.5223138
+			badS = True
+			state = 0
+			ToD = 8645.05999999898
+			idx = 2
+		}
+		CREW
+		{
+			name = Dilrick Kerman
+			brave = 0.9317374
+			dumb = 0.2882126
+			badS = False
+			state = 0
+			ToD = 3695.59999999876
+			idx = 0
+		}
+		CREW
+		{
+			name = Kenski Kerman
+			brave = 0.2754303
+			dumb = 0.161483
+			badS = True
+			state = 0
+			ToD = 3695.59999999876
+			idx = 1
+		}
+		CREW
+		{
+			name = Henton Kerman
+			brave = 0.5717381
+			dumb = 0.7550503
+			badS = False
+			state = 0
+			ToD = 3695.59999999876
+			idx = 2
+		}
+		CREW
+		{
+			name = Maldun Kerman
+			brave = 0.3426966
+			dumb = 0.5009227
+			badS = False
+			state = 0
+			ToD = 8844.9599999988
+			idx = 0
+		}
+		CREW
+		{
+			name = Adam Kerman
+			brave = 0.001814961
+			dumb = 0.78408
+			badS = False
+			state = 0
+			ToD = 8844.9599999988
+			idx = 1
+		}
+		CREW
+		{
+			name = Jerford Kerman
+			brave = 0.8329865
+			dumb = 0.1709037
+			badS = False
+			state = 0
+			ToD = 8844.9599999988
+			idx = 2
+		}
+		CREW
+		{
+			name = Adman Kerman
+			brave = 0.1974405
+			dumb = 0.06281626
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Lodnard Kerman
+			brave = 0.1962732
+			dumb = 0.1069849
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Johnler Kerman
+			brave = 0.2511593
+			dumb = 0.4200647
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		VESSEL
+		{
+			pid = b95b5dc1649442568bceb24013fc6f1d
+			name = Gilligan Only Ship Ship Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 18136.4553515804
+			lct = 1445.15999999898
+			root = 0
+			lat = -0.1076857405709
+			lon = -74.7514946490766
+			alt = 65.2606245997595
+			hgt = 0.6632735
+			nrm = 0.015805,0.1533057,-0.9880524
+			rot = -0.05544408,-0.1119629,-0.1559792,0.979827
+			CoM = -0.02236613,-0.01687391,0.01287497
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300811.266085496
+				ECC = 0.99482304233799
+				INC = 0.10768646331086
+				LPE = 89.9999999999998
+				LAN = 71.6087587818196
+				MNA = 3.14159265358979
+				EPH = 19581.6153515794
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 885650656
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = 3.549875
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = True
+							guiActive = True
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3998646715
+				parent = 0
+				position = -0.469681203365326,-0.354372471570969,0.271164447069168
+				rotation = -0.1561296,-0.292059,-0.2556546,-0.9082797
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = 3.537696
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 6db271554ef7467f9c4979b50def4cee
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 18135.8753515804
+			lct = 1445.73999999898
+			root = 0
+			lat = -0.105620203424574
+			lon = -74.7714724891052
+			alt = 65.1670097205788
+			hgt = 0.5907466
+			nrm = -0.36108,0.8942813,-0.2643524
+			rot = 0.1782558,-0.5173401,0.8224431,-0.1554714
+			CoM = 0.003708343,0.1857237,0.2238062
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300811.279889516
+				ECC = 0.994823040949216
+				INC = 0.105644724941013
+				LPE = 90.0000000000001
+				LAN = 71.5887916951775
+				MNA = 3.14159265358979
+				EPH = 19581.6153515794
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 168597359
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.175
+				temp = 3.573604
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 4078957834
+				parent = 0
+				position = 0.884138286113739,0.24684964120388,-2.79593251661936E-07
+				rotation = -0.5000007,-0.5000005,-0.5000005,0.5000007
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.175
+				temp = 3.55674
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1806754845
+				parent = 1
+				position = 0.8841392993927,0.201090335845947,-0.325370401144028
+				rotation = 0,-0.7071079,0,0.7071073
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = 3.54069
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 4179746061
+				parent = 0
+				position = 1.39568541612789E-07,0.24684964120388,0.884136259555817
+				rotation = -1.512661E-08,-0.7071076,-0.7071076,1.512661E-08
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.175
+				temp = 3.551731
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 634502137
+				parent = 3
+				position = 0.325371026992798,0.201090335845947,0.884136021137238
+				rotation = 0,-1.000001,0,-1.657473E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = 3.537579
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = trussPiece1x
+				uid = 2873671368
+				parent = 0
+				position = -0.884138464927673,0.24684964120388,2.0834517044932E-07
+				rotation = 0.5000005,-0.5000007,-0.5000007,-0.5000005
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.175
+				temp = 3.546423
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1478703538
+				parent = 5
+				position = -0.884138643741608,0.201090335845947,0.325370341539383
+				rotation = 0,-0.7071073,0,-0.7071079
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 5
+				mass = 0.05
+				temp = 3.533961
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 3e6ca476589c4e7eacebb6b42f6e2226
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 18135.4153515804
+			lct = 1446.19999999898
+			root = 0
+			lat = -0.104680570891367
+			lon = -74.7565410568357
+			alt = 65.3322533095488
+			hgt = 0.7381935
+			nrm = 0.2008794,0.2392098,0.9499615
+			rot = 0.8307962,0.5540614,-0.04270514,0.03114569
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300811.310334411
+				ECC = 0.994823039072168
+				INC = 0.10468057094123
+				LPE = 89.9999999999999
+				LAN = 71.6037148052375
+				MNA = 3.14159265358979
+				EPH = 19581.6153515794
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 673128847
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = 3.536297
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = cf823642f8be4161aad1e99507b3c6f3
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 18135.2753515804
+			lct = 1446.33999999898
+			root = 0
+			lat = -0.107996296971279
+			lon = -74.7550593173626
+			alt = 65.1717002973892
+			hgt = 0.570466
+			nrm = -0.8682672,-0.4960966,-0.0008184672
+			rot = -0.1402778,-0.7331594,-0.5406953,0.3878765
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = 0
+			ORBIT
+			{
+				SMA = 300811.229055135
+				ECC = 0.994823044339665
+				INC = 0.107996296799895
+				LPE = 89.9999999999999
+				LAN = 71.605196544693
+				MNA = 3.14159265358979
+				EPH = 19581.6153515794
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 2970250465
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = 3.536546
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = True
+							guiActive = True
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 7772b54043ac4645a5eab51a7a1bcd17
+			name = Gilligan Only Debris
+			type = Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 3.45999999999685
+			lct = 1664.37999999878
+			root = 0
+			lat = -0.000339074666881103
+			lon = -171.171245294138
+			alt = 99982.7663740616
+			hgt = -1
+			nrm = 0.1903395,-0.4778934,0.8575482
+			rot = -0.8391792,-0.2815805,-0.2246224,-0.4074748
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 697080.613285708
+				ECC = 0.0046693808257034
+				INC = 0.0320656705247475
+				LPE = 333.803828828134
+				LAN = 126.02021132422
+				MNA = 3.61360080430654
+				EPH = 1667.83999999878
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = MMI.K Miner 01
+				uid = 3075355790
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = None, -1
+				mass = 1
+				temp = -24.44204
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KethaneExtractor
+					isEnabled = True
+					EVENTS
+					{
+						DeployDrill
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Drill
+							guiName = Deploy Drill
+							category = Deploy Drill
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RetractDrill
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Drill
+							guiName = Retract Drill
+							category = Retract Drill
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployDrillAction
+						{
+							actionGroup = None
+						}
+						RetractDrillAction
+						{
+							actionGroup = None
+						}
+						ToggleDrillAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 7302530a667349078a8eb077fc59a325
+			name = Gilligan Only Debris
+			type = Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 3.37999999999693
+			lct = 1664.45999999878
+			root = 0
+			lat = 0.000998234668688902
+			lon = -171.170022930008
+			alt = 99999.7209617058
+			hgt = -1
+			nrm = -0.1054947,0.9352894,0.3377938
+			rot = 0.7714226,0.284804,0.2476334,-0.5123199
+			CoM = 0.006726314,-0.3916226,-0.004824253
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 699810.135445984
+				ECC = 0.000279701808866725
+				INC = 0.0732855147234256
+				LPE = 195.615311275745
+				LAN = 305.839248317623
+				MNA = 2.88266511470136
+				EPH = 1667.83999999878
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = fuelTank.long
+				uid = 4169966518
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 6
+				mass = 0.5
+				temp = -2.901183
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 360
+					maxAmount = 360
+					flowState = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 440
+					maxAmount = 440
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = MMI.K Converter Medium
+				uid = 1696322230
+				parent = 0
+				position = -1.26361846923828E-05,2.18752360343933,3.55765223503113E-07
+				rotation = 0.7071075,1.434953E-07,0.7071075,-1.434953E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.7
+				temp = -2.910215
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = KethaneConverter
+					isEnabled = True
+					EVENTS
+					{
+						ActivateConverter
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Converter
+							guiName = Activate LiquidFuel Converter
+							category = Activate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeactivateConverter
+						{
+							active = False
+							guiActive = True
+							guiIcon = Deactivate Converter
+							guiName = Deactivate LiquidFuel Converter
+							category = Deactivate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ActivateConverterAction
+						{
+							actionGroup = None
+						}
+						DeactivateConverterAction
+						{
+							actionGroup = None
+						}
+						ToggleConverterAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = KethaneConverter
+					isEnabled = True
+					EVENTS
+					{
+						ActivateConverter
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Converter
+							guiName = Activate Oxidizer Converter
+							category = Activate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeactivateConverter
+						{
+							active = False
+							guiActive = True
+							guiIcon = Deactivate Converter
+							guiName = Deactivate Oxidizer Converter
+							category = Deactivate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ActivateConverterAction
+						{
+							actionGroup = None
+						}
+						DeactivateConverterAction
+						{
+							actionGroup = None
+						}
+						ToggleConverterAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = KethaneConverter
+					isEnabled = True
+					EVENTS
+					{
+						ActivateConverter
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Converter
+							guiName = Activate MonoPropellant Converter
+							category = Activate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeactivateConverter
+						{
+							active = False
+							guiActive = True
+							guiIcon = Deactivate Converter
+							guiName = Deactivate MonoPropellant Converter
+							category = Deactivate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ActivateConverterAction
+						{
+							actionGroup = None
+						}
+						DeactivateConverterAction
+						{
+							actionGroup = None
+						}
+						ToggleConverterAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = KethaneConverter
+					isEnabled = True
+					EVENTS
+					{
+						ActivateConverter
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Converter
+							guiName = Activate XenonGas Converter
+							category = Activate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeactivateConverter
+						{
+							active = False
+							guiActive = True
+							guiIcon = Deactivate Converter
+							guiName = Deactivate XenonGas Converter
+							category = Deactivate Converter
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ActivateConverterAction
+						{
+							actionGroup = None
+						}
+						DeactivateConverterAction
+						{
+							actionGroup = None
+						}
+						ToggleConverterAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = MMI.K FuelTank 02 - 1m Regular
+				uid = 1555248055
+				parent = 1
+				position = -1.75237655639648E-05,3.43754434585571,5.60656189918518E-07
+				rotation = 0.7071076,1.538455E-07,0.7071076,-1.538455E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 0.25
+				temp = -2.916603
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = Kethane
+					amount = 0
+					maxAmount = 1000
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 3331713935
+				parent = 2
+				position = -1.6331672668457E-05,5.01257085800171,8.1770122051239E-07
+				rotation = 1.888498E-07,0.7071077,0.7071077,1.888498E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 2
+				mass = 0.2
+				temp = -2.919981
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = False
+							guiActive = False
+							guiIcon = Deploy Wheels
+							guiName = Deploy Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 1164806446
+				parent = 3
+				position = 0.489243447780609,4.88147974014282,-0.359818577766418
+				rotation = -0.3099613,-0.6089096,-0.7249496,0.0872004
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 3
+				mass = 0.05
+				temp = -2.92854
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 4072031421
+				parent = 0
+				position = 0.493388295173645,0.132202297449112,-0.383220613002777
+				rotation = 0.09229582,-0.7010583,0.7010583,-0.09229582
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = -2.924129
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 3806961465
+				parent = 0
+				position = -4.17232513427734E-06,-2.51251983642578,-4.09781932830811E-07
+				rotation = 1.888498E-07,0.7071077,0.7071077,1.888498E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 7
+				mass = 0.2
+				temp = -2.920818
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = False
+							guiActive = False
+							guiIcon = Deploy Wheels
+							guiName = Deploy Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = liquidEngine2
+				uid = 1647409905
+				parent = 6
+				position = 5.24520874023438E-06,-4.03936195373535,-6.59376382827759E-07
+				rotation = -1.434953E-07,0.7071075,-1.434953E-07,-0.7071075
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 1.5
+				temp = -2.930543
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleEngines
+					isEnabled = True
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					flameout = False
+					staged = False
+					EVENTS
+					{
+						Activate
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Engine
+							guiName = Activate Engine
+							category = Activate Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Engine
+							guiName = Shutdown Engine
+							category = Shutdown Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					EVENTS
+					{
+						Jettison
+						{
+							active = False
+							guiActive = True
+							guiIcon = Jettison
+							guiName = Jettison
+							category = Jettison
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleGimbal
+					isEnabled = True
+					gimbalLock = False
+					EVENTS
+					{
+						LockGimbal
+						{
+							active = True
+							guiActive = True
+							guiIcon = Lock Gimbal
+							guiName = Lock Gimbal
+							category = Lock Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						FreeGimbal
+						{
+							active = False
+							guiActive = True
+							guiIcon = Free Gimbal
+							guiName = Free Gimbal
+							category = Free Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 0
+					maxAmount = 0.0199999995529652
+					flowState = True
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 6e6fefece1e1463a9e666402da22cea0
+			name = Gilligan Only Debris
+			type = Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 3.37999999999693
+			lct = 1664.45999999878
+			root = 0
+			lat = 0.000793532182594897
+			lon = -171.17044252333
+			alt = 100003.158077483
+			hgt = -1
+			nrm = 0.3265441,0.8334957,-0.4457064
+			rot = 0.6437047,0.4185784,-0.4977591,-0.4033266
+			CoM = 0.00272909,0.1088533,-0.005971575
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 698806.608699
+				ECC = 0.00171253201373291
+				INC = 0.0630797512545338
+				LPE = 181.399931011206
+				LAN = 305.908597740452
+				MNA = 3.12965500915591
+				EPH = 1667.83999999878
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = fuelTank.long
+				uid = 4186681645
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -2.911205
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 360
+					maxAmount = 360
+					flowState = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 440
+					maxAmount = 440
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 3668506932
+				parent = 0
+				position = 4.07729515927713E-07,2.50003504753113,3.42515681950317E-06
+				rotation = -0.5000009,-0.5000009,-0.5000004,0.5000004
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 0
+				mass = 0.2
+				temp = -2.924119
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = False
+							guiActive = False
+							guiIcon = Deploy Wheels
+							guiName = Deploy Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = fuelLine
+				uid = 553037641
+				parent = 0
+				position = 0.258600264787674,0.336939334869385,-0.583591878414154
+				rotation = -0.2718981,-0.429153,-0.6534836,0.5611247
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.05
+				temp = -2.930032
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 2ec00568531b4ca8847e8ebf5076fd25
+			name = Gilligan Only Debris
+			type = Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 3.33999999999696
+			lct = 1664.49999999878
+			root = 0
+			lat = 0.00107425987479966
+			lon = -171.170772622701
+			alt = 99996.6068152493
+			hgt = -1
+			nrm = 0.03144459,-0.07552709,0.9966478
+			rot = -0.1253024,0.9380784,-0.001746862,0.3229632
+			CoM = -0.0001738072,-0.0003492551,-1.347229
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 698196.344109543
+				ECC = 0.00257665019436532
+				INC = 0.0889993355330548
+				LPE = 180.121013055094
+				LAN = 305.940759997397
+				MNA = 3.15150098842965
+				EPH = 1667.83999999878
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 3449258280
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.2
+				temp = -19.03323
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = False
+							guiActive = False
+							guiIcon = Deploy Wheels
+							guiName = Deploy Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = liquidEngine2
+				uid = 1095615671
+				parent = 0
+				position = -4.26914812123869E-06,1.93515620594553E-06,-1.52684378623962
+				rotation = 0.5000009,0.5000009,0.5000004,0.5000004
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = None, -1
+				mass = 1.5
+				temp = -19.02443
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleEngines
+					isEnabled = True
+					EngineIgnited = False
+					engineShutdown = False
+					currentThrottle = 0
+					flameout = False
+					staged = False
+					EVENTS
+					{
+						Activate
+						{
+							active = True
+							guiActive = True
+							guiIcon = Activate Engine
+							guiName = Activate Engine
+							category = Activate Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Engine
+							guiName = Shutdown Engine
+							category = Shutdown Engine
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleJettison
+					isEnabled = True
+					EVENTS
+					{
+						Jettison
+						{
+							active = False
+							guiActive = True
+							guiIcon = Jettison
+							guiName = Jettison
+							category = Jettison
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						JettisonAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleGimbal
+					isEnabled = True
+					gimbalLock = False
+					EVENTS
+					{
+						LockGimbal
+						{
+							active = True
+							guiActive = True
+							guiIcon = Lock Gimbal
+							guiName = Lock Gimbal
+							category = Lock Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						FreeGimbal
+						{
+							active = False
+							guiActive = True
+							guiIcon = Free Gimbal
+							guiName = Free Gimbal
+							category = Free Gimbal
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleAnimateHeat
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleAlternator
+					isEnabled = True
+					EVENTS
+					{
+					}
+					ACTIONS
+					{
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 0
+					maxAmount = 0.0199999995529652
+					flowState = True
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 76d429764b604b6dacec5c202ed34b26
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 44.4200000009696
+			lct = 19499.3153515777
+			root = 0
+			lat = 0.571578388940445
+			lon = 0.878456429958291
+			alt = 1361.11992556523
+			hgt = 0.790428
+			nrm = 0.8519946,0.3638205,-0.3764834
+			rot = -0.8937938,-0.262421,0.1286124,0.3401865
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 138.298766298171
+				LAN = 56.1229225263183
+				MNA = -8.40714670366795
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 635993341
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.1105208
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = True
+							guiActive = True
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 5016b49cdcc44a939d2c99306b7e83c3
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 44.4000000009692
+			lct = 19499.3353515777
+			root = 0
+			lat = 0.606625219196614
+			lon = 0.876594957730894
+			alt = 1357.20187770633
+			hgt = 0.8539923
+			nrm = -0.3352899,-0.6305705,-0.6999727
+			rot = -0.2157147,-0.3555293,0.7266198,0.5468912
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 8802310.43515431
+				ECC = 1
+				INC = NaN
+				LPE = 138.298739321337
+				LAN = 56.1229225263183
+				MNA = 3.14159265358979
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 3732154675
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.1078408
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 9d3dabb1bb344afa8c63b522e1145150
+			name = Gilligan Only Ship Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 43.2200000009434
+			lct = 19500.5153515777
+			root = 0
+			lat = 0.60980953808809
+			lon = 0.735000750926806
+			alt = 1331.91313520836
+			hgt = 0.818455
+			nrm = 0.08830018,-0.8522238,0.5156722
+			rot = 0.5755989,-0.2303216,0.616671,0.4851339
+			CoM = 3.606998E-06,8.16521E-07,9.352961E-07
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 138.297488389876
+				LAN = 56.1229225263183
+				MNA = -8.40714670366795
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 1001184165
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.01492545
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 63b106b9c7fd49beb808e839a0a88e86
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 39.9200000008714
+			lct = 19503.8153515778
+			root = 0
+			lat = 0.637805491775338
+			lon = 0.84943966853007
+			alt = 1350.77308610271
+			hgt = 0.7705212
+			nrm = -0.3822213,-0.8481477,0.3668142
+			rot = 0.5342313,-0.72557,0.4190936,0.1118287
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 8802339.61517611
+				ECC = 1
+				INC = NaN
+				LPE = 138.298491904501
+				LAN = 56.1229225263183
+				MNA = 3.14159265358979
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 1123856977
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.1119814
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = d2a68c58b78f4bae9a5d8b4695199043
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 34.0600000007435
+			lct = 19509.6753515779
+			root = 0
+			lat = 0.542925603875601
+			lon = 0.831586083386051
+			alt = 1358.47966603425
+			hgt = 0.7334357
+			nrm = -0.9428999,-0.1261842,0.3082486
+			rot = -0.0509201,-0.6768616,-0.7175261,-0.1562749
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 138.298368171974
+				LAN = 56.1229225263183
+				MNA = -8.40714670366795
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear
+				uid = 3041217074
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.1058213
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = False
+							guiActive = False
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = False
+							guiActive = False
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 6aaacecfdf184977911145e2364a8642
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 34.0600000007435
+			lct = 19509.6753515779
+			root = 0
+			lat = 0.529035416284734
+			lon = 0.80481316466633
+			alt = 1352.41029504983
+			hgt = 1.066607
+			nrm = 0.6672153,-0.6883,0.284722
+			rot = 0.331611,-0.2649157,-0.3089084,-0.8511342
+			CoM = -0.03604591,-0.7744095,0.0488476
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 138.298128802055
+				LAN = 56.1229225263183
+				MNA = -8.40714670366795
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = MMI.K FuelTank 02 - 1m Regular
+				uid = 2081552416
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.25
+				temp = -0.1898669
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				RESOURCE
+				{
+					name = Kethane
+					amount = 0
+					maxAmount = 1000
+					flowState = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 28424962
+				parent = 0
+				position = 2.56869384429592E-07,-1.5750435590744,2.15851991924865E-06
+				rotation = 0.500001,0.500001,-0.5000015,0.5000015
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 0
+				mass = 0.2
+				temp = -0.1894436
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = True
+							guiActive = True
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 3259031476
+				parent = 1
+				position = -0.359820157289505,-1.44395625591278,0.489270865917206
+				rotation = -0.4922248,-0.2934416,0.3689043,-0.7317934
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -0.1888147
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 526c000d690548838d3bc9fbe81324a2
+			name = Gilligan Only Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 33.1000000007225
+			lct = 19510.635351578
+			root = 0
+			lat = 0.609233881522907
+			lon = 0.756531282696709
+			alt = 1331.91151673903
+			hgt = 0.8317353
+			nrm = -0.4066479,-0.548528,-0.730585
+			rot = -0.4876243,0.7135943,0.4732644,-0.1703719
+			CoM = -2.614665E-06,0.004596766,0.05155592
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 138.297670136257
+				LAN = 56.1229225263183
+				MNA = -8.40714670366795
+				EPH = 19567.3753515791
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = TTlandinggear.ms
+				uid = 1352614343
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -0.3660279
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleCleverLegacyCart
+					isEnabled = True
+					EVENTS
+					{
+						ToggleSteeringEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Steering
+							guiName = Disable Steering
+							category = Enable Steering
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleMotorEnabled
+						{
+							active = True
+							guiActive = True
+							guiIcon = Enable Motor
+							guiName = Disable Motor
+							category = Enable Motor
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleHandbrake
+						{
+							active = True
+							guiActive = True
+							guiIcon = Turn Handbrake On
+							guiName = Turn Handbrake On
+							category = Turn Handbrake On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleCruiseControl
+						{
+							active = True
+							guiActive = True
+							guiIcon = Cruise Control
+							guiName = Cruise Control
+							category = Cruise Control
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleLights
+						{
+							active = False
+							guiActive = False
+							guiIcon = Turn Lights On
+							guiName = Turn Lights On
+							category = Turn Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleWheelsDeployed
+						{
+							active = True
+							guiActive = True
+							guiIcon = Deploy Wheels
+							guiName = Retract Wheels
+							category = Deploy Wheels
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = spotLight2
+				uid = 2453433499
+				parent = 0
+				position = 1.09155189420562E-06,0.0661281049251556,0.738240301609039
+				rotation = 7.450595E-08,-0.8660267,0.500001,3.086452E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 0
+				mass = 0.015
+				temp = -0.364736
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = ModuleLight
+					isEnabled = True
+					isOn = True
+					EVENTS
+					{
+						LightsOff
+						{
+							active = True
+							guiActive = True
+							guiIcon = Lights Off
+							guiName = Lights Off
+							category = Lights Off
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						LightsOn
+						{
+							active = False
+							guiActive = True
+							guiIcon = Lights On
+							guiName = Lights On
+							category = Lights On
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleLightAction
+						{
+							actionGroup = Light
+						}
+						LightOnAction
+						{
+							actionGroup = None
+						}
+						LightOffAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+	}
+}
