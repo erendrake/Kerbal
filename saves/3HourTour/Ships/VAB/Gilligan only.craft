@@ -3,9 +3,9 @@ version = 0.18.4
 type = VAB
 PART
 {
-	part = probeCoreOcto_4288821786
+	part = probeCoreOcto_4294116380
 	partName = CommandPod
-	pos = 1.080776,25.83792,-0.06303211
+	pos = -0.1822205,25.82014,-0.4350358
 	rot = -0.9848078,0,0.1736482,0
 	attRot = -0.9848078,0,0.1736482,0
 	mir = 1,1,1
@@ -14,8 +14,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort2_4288821758
-	attN = top,dockingPort2_4288821758
+	link = dockingPort2_4294116352
+	attN = top,dockingPort2_4294116352
 	EVENTS
 	{
 		MakeReference
@@ -59,9 +59,9 @@ PART
 }
 PART
 {
-	part = dockingPort2_4288821758
+	part = dockingPort2_4294116352
 	partName = Part
-	pos = 1.080776,25.36795,-0.06303213
+	pos = -0.1822205,25.35018,-0.4350359
 	rot = -1.29378E-09,1,-2.069034E-09,-1.490116E-08
 	attRot = -0.9999999,0,0,0
 	mir = 1,1,1
@@ -70,9 +70,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = trussPiece1x_4288821720
-	attN = top,probeCoreOcto_4288821786
-	attN = bottom,trussPiece1x_4288821720
+	link = trussPiece1x_4294116314
+	attN = top,probeCoreOcto_4294116380
+	attN = bottom,trussPiece1x_4294116314
 	EVENTS
 	{
 	}
@@ -192,9 +192,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821720
+	part = trussPiece1x_4294116314
 	partName = Part
-	pos = 1.080776,24.80869,-0.06303215
+	pos = -0.1822205,24.79091,-0.4350359
 	rot = -1.988381E-09,4.470348E-08,1.293779E-09,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -203,13 +203,13 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = trussPiece1x_4288821700
-	link = trussPiece1x_4288821566
-	link = trussPiece1x_4288821432
-	link = trussPiece1x_4288821272
-	link = probeCoreOcto_4288821002
-	attN = bottom,probeCoreOcto_4288821002
-	attN = top,dockingPort2_4288821758
+	link = trussPiece1x_4294116294
+	link = trussPiece1x_4294116160
+	link = trussPiece1x_4294116026
+	link = trussPiece1x_4294115866
+	link = probeCoreOcto_4294115596
+	attN = bottom,probeCoreOcto_4294115596
+	attN = top,dockingPort2_4294116352
 	EVENTS
 	{
 	}
@@ -219,9 +219,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821700
+	part = trussPiece1x_4294116294
 	partName = Part
-	pos = 1.964916,25.05553,-0.06303333
+	pos = 0.7019202,25.03776,-0.4350371
 	rot = -0.5000002,-0.4999999,-0.4999999,0.5000002
 	attRot = 0,0,-0.9999999,0
 	mir = 1,1,1
@@ -230,12 +230,12 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece3x_4288821680
-	sym = trussPiece1x_4288821272
-	sym = trussPiece1x_4288821566
-	sym = trussPiece1x_4288821432
-	srfN = srfAttach,trussPiece1x_4288821720
-	attN = top,trussPiece3x_4288821680
+	link = trussPiece3x_4294116274
+	sym = trussPiece1x_4294115866
+	sym = trussPiece1x_4294116160
+	sym = trussPiece1x_4294116026
+	srfN = srfAttach,trussPiece1x_4294116314
+	attN = top,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -245,9 +245,9 @@ PART
 }
 PART
 {
-	part = trussPiece3x_4288821680
+	part = trussPiece3x_4294116274
 	partName = Part
-	pos = 3.999435,25.05552,-0.0630376
+	pos = 2.73644,25.03774,-0.4350415
 	rot = 0.5000002,-0.4999999,0.4999999,0.5000002
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	mir = 1,1,1
@@ -256,17 +256,17 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort2_4288821660
-	link = strutConnector_4288821622
-	link = trussPiece1x_4288821062
-	link = largeSolarPanel_4288819966
-	link = strutConnector_4288816554
-	link = kethane.highGain_4288816294
-	link = ISA.GPS_4288816246
-	sym = trussPiece3x_4288821252
-	sym = trussPiece3x_4288821546
-	sym = trussPiece3x_4288821412
-	attN = top,trussPiece1x_4288821700
+	link = dockingPort2_4294116254
+	link = strutConnector_4294116216
+	link = trussPiece1x_4294115656
+	link = largeSolarPanel_4294114620
+	link = strutConnector_4294112064
+	link = kethane.highGain_4294111906
+	link = ISA.GPS_4294111858
+	sym = trussPiece3x_4294115846
+	sym = trussPiece3x_4294116140
+	sym = trussPiece3x_4294116006
+	attN = top,trussPiece1x_4294116294
 	EVENTS
 	{
 	}
@@ -276,9 +276,9 @@ PART
 }
 PART
 {
-	part = dockingPort2_4288821660
+	part = dockingPort2_4294116254
 	partName = Part
-	pos = 4.592065,25.38011,-0.06303819
+	pos = 3.329071,25.36233,-0.4350421
 	rot = -0.003251672,-0.8652229,-0.005603907,0.5013459
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
@@ -287,10 +287,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4288821232
-	sym = dockingPort2_4288821526
-	sym = dockingPort2_4288821392
-	srfN = srfAttach,trussPiece3x_4288821680
+	sym = dockingPort2_4294115826
+	sym = dockingPort2_4294116120
+	sym = dockingPort2_4294115986
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -410,10 +410,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288821622
+	part = strutConnector_4294116216
 	partName = StrutConnector
-	pos = 2.760737,25.05033,-0.394945
-	rot = 2.386026E-07,0.7933536,-2.365098E-09,-0.6087613
+	pos = 1.497741,25.03255,-0.7669487
+	rot = 2.386026E-07,0.7933535,-2.365098E-09,-0.6087613
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -421,11 +421,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece3x_71; pos: -0.9774301,0.01752639,1.665107; dir: -0.5062121,0.009077159,0.8623613
-	sym = strutConnector_4288821194
-	sym = strutConnector_4288821488
-	sym = strutConnector_4288821354
-	srfN = srfAttach,trussPiece3x_4288821680
+	cData = tgt: trussPiece3x_79; pos: -0.9774302,0.01752639,1.665107; dir: -0.5062121,0.009077159,0.8623613
+	sym = strutConnector_4294115788
+	sym = strutConnector_4294116082
+	sym = strutConnector_4294115948
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -435,9 +435,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821566
+	part = trussPiece1x_4294116160
 	partName = Part
-	pos = 1.080776,25.05553,0.8211074
+	pos = -0.1822202,25.03776,0.4491046
 	rot = 9.685755E-08,-0.7071069,-0.7071069,-7.450581E-09
 	attRot = 0,0,-0.9999999,0
 	mir = 1,1,1
@@ -446,14 +446,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece3x_4288821546
-	link = strutConnector_4288817198
-	link = strutConnector_4288816918
-	sym = trussPiece1x_4288821272
-	sym = trussPiece1x_4288821700
-	sym = trussPiece1x_4288821432
-	srfN = srfAttach,trussPiece1x_4288821720
-	attN = top,trussPiece3x_4288821546
+	link = trussPiece3x_4294116140
+	link = strutConnector_4294112708
+	link = strutConnector_4294112428
+	sym = trussPiece1x_4294115866
+	sym = trussPiece1x_4294116294
+	sym = trussPiece1x_4294116026
+	srfN = srfAttach,trussPiece1x_4294116314
+	attN = top,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -463,10 +463,10 @@ PART
 }
 PART
 {
-	part = trussPiece3x_4288821546
+	part = trussPiece3x_4294116140
 	partName = Part
-	pos = 1.080776,25.05552,2.855689
-	rot = -4.023314E-07,-0.7071069,0.7071069,2.235174E-08
+	pos = -0.1822205,25.03774,2.483706
+	rot = -4.991889E-07,-0.7071069,0.7071069,2.235174E-08
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	mir = 1,1,1
 	istg = 0
@@ -474,19 +474,19 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort2_4288821526
-	link = strutConnector_4288821488
-	link = mumech.mechjebrad_4288821138
-	link = trussPiece1x_4288821022
-	link = largeSolarPanel_4288820094
-	link = strutConnector_4288818870
-	link = strutConnector_4288818106
-	link = strutConnector_4288817622
-	link = strutConnector_4288817142
-	sym = trussPiece3x_4288821252
-	sym = trussPiece3x_4288821680
-	sym = trussPiece3x_4288821412
-	attN = top,trussPiece1x_4288821566
+	link = dockingPort2_4294116120
+	link = strutConnector_4294116082
+	link = mumech.mechjebrad_4294115732
+	link = trussPiece1x_4294115616
+	link = largeSolarPanel_4294114748
+	link = strutConnector_4294113836
+	link = strutConnector_4294113352
+	link = strutConnector_4294113080
+	link = strutConnector_4294112652
+	sym = trussPiece3x_4294115846
+	sym = trussPiece3x_4294116274
+	sym = trussPiece3x_4294116006
+	attN = top,trussPiece1x_4294116160
 	EVENTS
 	{
 	}
@@ -496,10 +496,10 @@ PART
 }
 PART
 {
-	part = dockingPort2_4288821526
+	part = dockingPort2_4294116120
 	partName = Part
-	pos = 1.080776,25.38012,3.448303
-	rot = 0.001663567,-0.96631,-0.006261616,-0.2572998
+	pos = -0.1822206,25.36234,3.076309
+	rot = 0.001663552,-0.9663101,-0.006261616,-0.2572999
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
 	istg = 0
@@ -507,10 +507,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4288821232
-	sym = dockingPort2_4288821660
-	sym = dockingPort2_4288821392
-	srfN = srfAttach,trussPiece3x_4288821546
+	sym = dockingPort2_4294115826
+	sym = dockingPort2_4294116254
+	sym = dockingPort2_4294115986
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -630,10 +630,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288821488
+	part = strutConnector_4294116082
 	partName = StrutConnector
-	pos = 1.412698,25.05034,1.616926
-	rot = -1.505539E-07,0.9914452,-2.998258E-07,0.130526
+	pos = 0.1497041,25.03257,1.244924
+	rot = -1.431033E-07,0.9914452,-6.276513E-07,0.130526
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -641,11 +641,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece3x_4; pos: -0.9774308,0.01752678,1.665111; dir: -0.5062121,0.009077159,0.8623613
-	sym = strutConnector_4288821194
-	sym = strutConnector_4288821622
-	sym = strutConnector_4288821354
-	srfN = srfAttach,trussPiece3x_4288821546
+	cData = tgt: trussPiece3x_4; pos: -0.9774319,0.01752625,1.665111; dir: -0.5062121,0.009077159,0.8623613
+	sym = strutConnector_4294115788
+	sym = strutConnector_4294116216
+	sym = strutConnector_4294115948
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -655,9 +655,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821432
+	part = trussPiece1x_4294116026
 	partName = Part
-	pos = 0.1966347,25.05553,-0.06303179
+	pos = -1.066363,25.03776,-0.4350355
 	rot = 0.4999999,-0.5000003,-0.5000003,-0.4999998
 	attRot = 0,0,-0.9999999,0
 	mir = 1,1,1
@@ -666,12 +666,12 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece3x_4288821412
-	sym = trussPiece1x_4288821272
-	sym = trussPiece1x_4288821700
-	sym = trussPiece1x_4288821566
-	srfN = srfAttach,trussPiece1x_4288821720
-	attN = top,trussPiece3x_4288821412
+	link = trussPiece3x_4294116006
+	sym = trussPiece1x_4294115866
+	sym = trussPiece1x_4294116294
+	sym = trussPiece1x_4294116160
+	srfN = srfAttach,trussPiece1x_4294116314
+	attN = top,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -681,9 +681,9 @@ PART
 }
 PART
 {
-	part = trussPiece3x_4288821412
+	part = trussPiece3x_4294116006
 	partName = Part
-	pos = -1.837915,25.05553,-0.06303372
+	pos = -3.10093,25.03776,-0.4350424
 	rot = -0.5000005,-0.5000001,0.5,-0.4999997
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	mir = 1,1,1
@@ -692,17 +692,18 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort2_4288821392
-	link = strutConnector_4288821354
-	link = rtg_4288821298
-	link = trussPiece1x_4288821042
-	link = largeSolarPanel_4288820030
-	link = strutConnector_4288819678
-	link = strutConnector_4288818814
-	sym = trussPiece3x_4288821252
-	sym = trussPiece3x_4288821680
-	sym = trussPiece3x_4288821546
-	attN = top,trussPiece1x_4288821432
+	link = dockingPort2_4294115986
+	link = strutConnector_4294115948
+	link = rtg_4294115892
+	link = trussPiece1x_4294115636
+	link = largeSolarPanel_4294114684
+	link = strutConnector_4294114444
+	link = strutConnector_4294113780
+	link = strutConnector_4294109716
+	sym = trussPiece3x_4294115846
+	sym = trussPiece3x_4294116274
+	sym = trussPiece3x_4294116140
+	attN = top,trussPiece1x_4294116026
 	EVENTS
 	{
 	}
@@ -712,10 +713,10 @@ PART
 }
 PART
 {
-	part = dockingPort2_4288821392
+	part = dockingPort2_4294115986
 	partName = Part
-	pos = -2.43054,25.38012,-0.06303605
-	rot = 0.005603644,-0.5013458,-0.003252537,-0.8652228
+	pos = -3.693547,25.36234,-0.4350474
+	rot = 0.005603421,-0.5013458,-0.003253431,-0.8652228
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
 	istg = 0
@@ -723,10 +724,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4288821232
-	sym = dockingPort2_4288821660
-	sym = dockingPort2_4288821526
-	srfN = srfAttach,trussPiece3x_4288821412
+	sym = dockingPort2_4294115826
+	sym = dockingPort2_4294116254
+	sym = dockingPort2_4294116120
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -846,10 +847,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288821354
+	part = strutConnector_4294115948
 	partName = StrutConnector
-	pos = -0.5991828,25.05034,0.2688799
-	rot = 8.320999E-07,0.6087618,-1.10287E-06,0.7933534
+	pos = -1.862182,25.03257,-0.1031238
+	rot = 1.785774E-06,0.6087618,-2.056544E-06,0.7933534
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -857,11 +858,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece3x_23; pos: -0.9774235,0.01752595,1.665103; dir: -0.5062121,0.009077159,0.8623613
-	sym = strutConnector_4288821194
-	sym = strutConnector_4288821622
-	sym = strutConnector_4288821488
-	srfN = srfAttach,trussPiece3x_4288821412
+	cData = tgt: trussPiece3x_27; pos: -0.9774252,0.01752618,1.665106; dir: -0.5062121,0.009077159,0.8623613
+	sym = strutConnector_4294115788
+	sym = strutConnector_4294116216
+	sym = strutConnector_4294116082
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -871,10 +872,10 @@ PART
 }
 PART
 {
-	part = rtg_4288821298
+	part = rtg_4294115892
 	partName = Part
-	pos = -1.012636,24.40417,-0.06302967
-	rot = -0.7071069,5.065104E-07,0.7071068,7.135556E-07
+	pos = -2.275633,24.38639,-0.4350342
+	rot = -0.707107,8.939409E-07,0.7071068,1.801341E-06
 	attRot = -0.7071067,0,0,-0.7071067
 	mir = 1,1,1
 	istg = 0
@@ -882,7 +883,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece3x_4288821412
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -939,9 +940,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821272
+	part = trussPiece1x_4294115866
 	partName = Part
-	pos = 1.080776,25.05553,-0.9471714
+	pos = -0.1822204,25.03776,-1.319175
 	rot = -0.7071069,5.960464E-08,2.980232E-08,0.7071069
 	attRot = 0,0,-0.9999999,0
 	mir = 1,1,1
@@ -950,14 +951,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece3x_4288821252
-	link = strutConnector_4288817086
-	link = strutConnector_4288816974
-	sym = trussPiece1x_4288821700
-	sym = trussPiece1x_4288821566
-	sym = trussPiece1x_4288821432
-	srfN = srfAttach,trussPiece1x_4288821720
-	attN = top,trussPiece3x_4288821252
+	link = trussPiece3x_4294115846
+	link = strutConnector_4294112596
+	link = strutConnector_4294112484
+	sym = trussPiece1x_4294116294
+	sym = trussPiece1x_4294116160
+	sym = trussPiece1x_4294116026
+	srfN = srfAttach,trussPiece1x_4294116314
+	attN = top,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -967,9 +968,9 @@ PART
 }
 PART
 {
-	part = trussPiece3x_4288821252
+	part = trussPiece3x_4294115846
 	partName = Part
-	pos = 1.080776,25.05553,-2.981752
+	pos = -0.1822205,25.03776,-3.353775
 	rot = 0.7071069,1.862645E-07,-4.470348E-08,0.7071069
 	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
 	mir = 1,1,1
@@ -978,16 +979,16 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = dockingPort2_4288821232
-	link = strutConnector_4288821194
-	link = trussPiece1x_4288821082
-	link = largeSolarPanel_4288820158
-	link = strutConnector_4288818050
-	link = strutConnector_4288817030
-	sym = trussPiece3x_4288821680
-	sym = trussPiece3x_4288821546
-	sym = trussPiece3x_4288821412
-	attN = top,trussPiece1x_4288821272
+	link = dockingPort2_4294115826
+	link = strutConnector_4294115788
+	link = trussPiece1x_4294115676
+	link = largeSolarPanel_4294114812
+	link = strutConnector_4294113296
+	link = strutConnector_4294112540
+	sym = trussPiece3x_4294116274
+	sym = trussPiece3x_4294116140
+	sym = trussPiece3x_4294116006
+	attN = top,trussPiece1x_4294115866
 	EVENTS
 	{
 	}
@@ -997,9 +998,9 @@ PART
 }
 PART
 {
-	part = dockingPort2_4288821232
+	part = dockingPort2_4294115826
 	partName = Part
-	pos = 1.080776,25.38012,-3.57438
+	pos = -0.1822206,25.36234,-3.946394
 	rot = -0.00626222,-0.2573006,-0.001663315,0.9663099
 	attRot = 0.1305262,0,0,0.9914449
 	mir = 1,1,1
@@ -1008,10 +1009,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = dockingPort2_4288821660
-	sym = dockingPort2_4288821526
-	sym = dockingPort2_4288821392
-	srfN = srfAttach,trussPiece3x_4288821252
+	sym = dockingPort2_4294116254
+	sym = dockingPort2_4294116120
+	sym = dockingPort2_4294115986
+	srfN = srfAttach,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -1131,9 +1132,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288821194
+	part = strutConnector_4294115788
 	partName = StrutConnector
-	pos = 0.7488648,25.05034,-1.742989
+	pos = -0.5141318,25.03257,-2.114995
 	rot = 4.722012E-09,0.1305265,3.823694E-09,-0.9914449
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -1142,11 +1143,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece3x_45; pos: -0.9774255,0.01752663,1.6651; dir: -0.5062121,0.009077159,0.8623613
-	sym = strutConnector_4288821622
-	sym = strutConnector_4288821488
-	sym = strutConnector_4288821354
-	srfN = srfAttach,trussPiece3x_4288821252
+	cData = tgt: trussPiece3x_55; pos: -0.9774234,0.01752663,1.665097; dir: -0.5062121,0.009077159,0.8623613
+	sym = strutConnector_4294116216
+	sym = strutConnector_4294116082
+	sym = strutConnector_4294115948
+	srfN = srfAttach,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -1156,10 +1157,10 @@ PART
 }
 PART
 {
-	part = mumech.mechjebrad_4288821138
+	part = mumech.mechjebrad_4294115732
 	partName = MuMechJeb
-	pos = 1.397227,25.03487,2.770894
-	rot = -0.6087615,5.717325E-07,0.7933536,-3.002602E-07
+	pos = 0.1342325,25.01711,2.39891
+	rot = -0.6087615,8.399534E-07,0.7933534,-4.790741E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1167,7 +1168,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece3x_4288821546
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 		MakeReference
@@ -1222,9 +1223,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821082
+	part = trussPiece1x_4294115676
 	partName = Part
-	pos = 1.080775,24.17168,-4.154296
+	pos = -0.1822217,24.15391,-4.526325
 	rot = 1.788139E-07,2.106047E-07,1,7.649886E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1233,15 +1234,15 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4288820298
-	link = strutConnector_4288818926
-	link = radialLiquidEngine1-2_4288817994
-	link = strutConnector_4288817784
-	sym = trussPiece1x_4288821022
-	sym = trussPiece1x_4288821062
-	sym = trussPiece1x_4288821042
-	srfN = srfAttach,trussPiece3x_4288821252
-	attN = top,trussPiece1x_4288820298
+	link = trussPiece1x_4294114892
+	link = strutConnector_4294113892
+	link = radialLiquidEngine1-2_4294113240
+	link = strutConnector_4294113136
+	sym = trussPiece1x_4294115616
+	sym = trussPiece1x_4294115656
+	sym = trussPiece1x_4294115636
+	srfN = srfAttach,trussPiece3x_4294115846
+	attN = top,trussPiece1x_4294114892
 	EVENTS
 	{
 	}
@@ -1251,9 +1252,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821062
+	part = trussPiece1x_4294115656
 	partName = Part
-	pos = 5.171968,24.17167,-0.06304093
+	pos = 3.908973,24.1539,-0.4350449
 	rot = -0.7071066,1.197005E-07,0.7071072,2.360978E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1262,13 +1263,13 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4288820278
-	link = strutConnector_4288819622
-	sym = trussPiece1x_4288821022
-	sym = trussPiece1x_4288821082
-	sym = trussPiece1x_4288821042
-	srfN = srfAttach,trussPiece3x_4288821680
-	attN = top,trussPiece1x_4288820278
+	link = trussPiece1x_4294114872
+	link = strutConnector_4294114388
+	sym = trussPiece1x_4294115616
+	sym = trussPiece1x_4294115676
+	sym = trussPiece1x_4294115636
+	srfN = srfAttach,trussPiece3x_4294116274
+	attN = top,trussPiece1x_4294114872
 	EVENTS
 	{
 	}
@@ -1278,10 +1279,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821042
+	part = trussPiece1x_4294115636
 	partName = Part
-	pos = -3.010452,24.17168,-0.06303366
-	rot = -0.7071068,4.745163E-07,-0.7071069,-1.043572E-06
+	pos = -4.27347,24.15391,-0.4350433
+	rot = -0.7071068,1.338784E-06,-0.7071069,-1.90784E-06
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1289,13 +1290,13 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4288820258
-	link = strutConnector_4288819092
-	sym = trussPiece1x_4288821022
-	sym = trussPiece1x_4288821082
-	sym = trussPiece1x_4288821062
-	srfN = srfAttach,trussPiece3x_4288821412
-	attN = top,trussPiece1x_4288820258
+	link = trussPiece1x_4294114852
+	link = strutConnector_4294113948
+	sym = trussPiece1x_4294115616
+	sym = trussPiece1x_4294115676
+	sym = trussPiece1x_4294115656
+	srfN = srfAttach,trussPiece3x_4294116006
+	attN = top,trussPiece1x_4294114852
 	EVENTS
 	{
 	}
@@ -1305,10 +1306,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288821022
+	part = trussPiece1x_4294115616
 	partName = Part
-	pos = 1.080776,24.17167,4.028234
-	rot = -1,-4.065838E-07,5.960464E-08,-4.490232E-07
+	pos = -0.1822213,24.15389,3.656257
+	rot = -1,-4.750731E-07,5.960464E-08,-4.490232E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1316,13 +1317,13 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = trussPiece1x_4288820318
-	link = radialLiquidEngine1-2_4288817942
-	sym = trussPiece1x_4288821082
-	sym = trussPiece1x_4288821062
-	sym = trussPiece1x_4288821042
-	srfN = srfAttach,trussPiece3x_4288821546
-	attN = top,trussPiece1x_4288820318
+	link = trussPiece1x_4294114912
+	link = radialLiquidEngine1-2_4294113188
+	sym = trussPiece1x_4294115676
+	sym = trussPiece1x_4294115656
+	sym = trussPiece1x_4294115636
+	srfN = srfAttach,trussPiece3x_4294116140
+	attN = top,trussPiece1x_4294114912
 	EVENTS
 	{
 	}
@@ -1332,9 +1333,9 @@ PART
 }
 PART
 {
-	part = probeCoreOcto_4288821002
+	part = probeCoreOcto_4294115596
 	partName = CommandPod
-	pos = 1.080776,24.06233,-0.06303269
+	pos = -0.1822205,24.04456,-0.4350364
 	rot = 1.293779E-09,-1,2.069027E-09,1.490116E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1343,11 +1344,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = radialLiquidEngine1-2_4288820974
-	link = radialLiquidEngine1-2_4288820922
-	link = strutCube_4288820870
-	link = strutCube_4288820650
-	attN = top,trussPiece1x_4288821720
+	link = radialLiquidEngine1-2_4294115568
+	link = radialLiquidEngine1-2_4294115516
+	link = strutCube_4294115464
+	link = strutCube_4294115244
+	attN = top,trussPiece1x_4294116314
 	EVENTS
 	{
 		MakeReference
@@ -1391,10 +1392,10 @@ PART
 }
 PART
 {
-	part = radialLiquidEngine1-2_4288820974
+	part = radialLiquidEngine1-2_4294115568
 	partName = Part
-	pos = 0.1516755,23.74105,-0.06303187
-	rot = -5.482041E-10,-0.7071069,6.570779E-08,0.7071068
+	pos = -1.111321,23.72328,-0.4350356
+	rot = -5.482228E-10,-0.7071069,6.570779E-08,0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1402,8 +1403,8 @@ PART
 	sidx = 0
 	sqor = 0
 	attm = 1
-	sym = radialLiquidEngine1-2_4288820922
-	srfN = srfAttach,probeCoreOcto_4288821002
+	sym = radialLiquidEngine1-2_4294115516
+	srfN = srfAttach,probeCoreOcto_4294115596
 	EVENTS
 	{
 	}
@@ -1501,9 +1502,9 @@ PART
 }
 PART
 {
-	part = radialLiquidEngine1-2_4288820922
+	part = radialLiquidEngine1-2_4294115516
 	partName = Part
-	pos = 2.009876,23.74105,-0.06303286
+	pos = 0.74688,23.72328,-0.4350366
 	rot = -2.377863E-09,0.7071068,-4.27347E-09,0.7071069
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1512,8 +1513,8 @@ PART
 	sidx = 1
 	sqor = 0
 	attm = 1
-	sym = radialLiquidEngine1-2_4288820974
-	srfN = srfAttach,probeCoreOcto_4288821002
+	sym = radialLiquidEngine1-2_4294115568
+	srfN = srfAttach,probeCoreOcto_4294115596
 	EVENTS
 	{
 	}
@@ -1611,9 +1612,9 @@ PART
 }
 PART
 {
-	part = strutCube_4288820870
+	part = strutCube_4294115464
 	partName = Part
-	pos = 1.080776,24.08409,0.4103478
+	pos = -0.1822205,24.06631,0.03834435
 	rot = -5.960464E-08,-0.7071069,-0.7071069,-7.450581E-09
 	attRot = 0,0,-0.9999999,0
 	mir = 1,1,1
@@ -1622,8 +1623,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = fuelTank.long_4288820850
-	srfN = srfAttach,probeCoreOcto_4288821002
+	link = fuelTank.long_4294115444
+	srfN = srfAttach,probeCoreOcto_4294115596
 	EVENTS
 	{
 	}
@@ -1633,9 +1634,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288820850
+	part = fuelTank.long_4294115444
 	partName = Part
-	pos = 1.080776,24.0975,1.146635
+	pos = -0.1822206,24.07972,0.7746323
 	rot = 0.5000002,-0.4999993,-0.5000004,-0.5000005
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
@@ -1644,15 +1645,15 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = fuelTank.long_4288820818
-	link = strutConnector_4288820786
-	link = fuelLine_4288820730
-	link = fuelLine_4288818678
-	link = fuelTank.long_4288817466
-	link = fuelTank.long_4288817402
-	srfN = srfAttach,strutCube_4288820870
-	attN = top,fuelTank.long_4288817466
-	attN = bottom,fuelTank.long_4288817402
+	link = fuelTank.long_4294115412
+	link = strutConnector_4294115380
+	link = fuelLine_4294115324
+	link = fuelLine_4294113644
+	link = fuelTank.long_4294112924
+	link = fuelTank.long_4294112860
+	srfN = srfAttach,strutCube_4294115464
+	attN = top,fuelTank.long_4294112924
+	attN = bottom,fuelTank.long_4294112860
 	EVENTS
 	{
 	}
@@ -1662,9 +1663,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288820818
+	part = fuelTank.long_4294115412
 	partName = Part
-	pos = 1.080776,24.08075,2.394043
+	pos = -0.1822206,24.06297,2.022053
 	rot = -0.5000001,0.5000005,0.4999996,0.5
 	attRot = 0,0,-0.7071067,0.7071067
 	mir = 1,1,1
@@ -1673,11 +1674,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = MMI.K FuelTank 02 - 1m Regular_4288818128
-	link = fuelTank_4288817318
-	srfN = srfAttach,fuelTank.long_4288820850
-	attN = top,MMI.K FuelTank 02 - 1m Regular_4288818128
-	attN = bottom,fuelTank_4288817318
+	link = MMI.K FuelTank 02 - 1m Regular_4294113374
+	link = fuelTank_4294112828
+	srfN = srfAttach,fuelTank.long_4294115444
+	attN = top,MMI.K FuelTank 02 - 1m Regular_4294113374
+	attN = bottom,fuelTank_4294112828
 	EVENTS
 	{
 	}
@@ -1687,9 +1688,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288820786
+	part = strutConnector_4294115380
 	partName = StrutConnector
-	pos = 2.170887,23.56041,1.438731
+	pos = 0.9078924,23.54263,1.066728
 	rot = -0.5615578,-0.8043795,0.1291725,-0.1447107
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1698,8 +1699,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_95; pos: -0.2722242,-0.07200979,-0.6145672; dir: -0.4026936,-0.1065203,-0.9091157
-	srfN = srfAttach,fuelTank.long_4288820850
+	cData = tgt: fuelTank.long_110; pos: -0.2722263,-0.07200971,-0.6145771; dir: -0.4026936,-0.1065203,-0.9091157
+	srfN = srfAttach,fuelTank.long_4294115444
 	EVENTS
 	{
 	}
@@ -1709,9 +1710,9 @@ PART
 }
 PART
 {
-	part = fuelLine_4288820730
+	part = fuelLine_4294115324
 	partName = FuelLine
-	pos = 1.389366,23.79287,1.681149
+	pos = 0.1263694,23.77509,1.309146
 	rot = 0.7071069,0.707107,-1.385808E-06,-1.080334E-06
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1720,8 +1721,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_95; pos: 0.001893977,-0.009723282,-0.1631616; dir: 0.01159459,-0.05947471,-0.9981624; rot: -0.4829629,-0.2241456,-0.836516,0.129409
-	srfN = srfAttach,fuelTank.long_4288820850
+	cData = tgt: fuelTank.long_110; pos: 0.001893977,-0.009723729,-0.1631751; dir: 0.01159459,-0.05947471,-0.9981624; rot: -0.4829629,-0.2241456,-0.836516,0.129409
+	srfN = srfAttach,fuelTank.long_4294115444
 	EVENTS
 	{
 	}
@@ -1731,9 +1732,9 @@ PART
 }
 PART
 {
-	part = strutCube_4288820650
+	part = strutCube_4294115244
 	partName = Part
-	pos = 1.080776,24.03985,-0.536263
+	pos = -0.1822205,24.02208,-0.908267
 	rot = -7.450581E-09,-0.7071069,0.7071069,5.960464E-08
 	attRot = 0,0,0,-0.9999999
 	mir = 1,1,1
@@ -1742,8 +1743,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = fuelTank.long_4288820630
-	srfN = srfAttach,probeCoreOcto_4288821002
+	link = fuelTank.long_4294115224
+	srfN = srfAttach,probeCoreOcto_4294115596
 	EVENTS
 	{
 	}
@@ -1753,9 +1754,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288820630
+	part = fuelTank.long_4294115224
 	partName = Part
-	pos = 1.080776,24.02644,-1.272552
+	pos = -0.1822205,24.00867,-1.644556
 	rot = 0.5000001,-0.5000002,0.5000004,0.4999997
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
@@ -1764,17 +1765,17 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = fuelTank.long_4288820598
-	link = strutConnector_4288820566
-	link = strutConnector_4288820510
-	link = strutConnector_4288820454
-	link = fuelLine_4288820398
-	link = fuelLine_4288818758
-	link = fuelTank.long_4288817498
-	link = fuelTank.long_4288817434
-	srfN = srfAttach,strutCube_4288820650
-	attN = top,fuelTank.long_4288817498
-	attN = bottom,fuelTank.long_4288817434
+	link = fuelTank.long_4294115192
+	link = strutConnector_4294115160
+	link = strutConnector_4294115104
+	link = strutConnector_4294115048
+	link = fuelLine_4294114992
+	link = fuelLine_4294113724
+	link = fuelTank.long_4294112956
+	link = fuelTank.long_4294112892
+	srfN = srfAttach,strutCube_4294115244
+	attN = top,fuelTank.long_4294112956
+	attN = bottom,fuelTank.long_4294112892
 	EVENTS
 	{
 	}
@@ -1784,9 +1785,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288820598
+	part = fuelTank.long_4294115192
 	partName = Part
-	pos = 1.080776,24.0432,-2.519956
+	pos = -0.1822206,24.02542,-2.891974
 	rot = -0.5000005,0.4999996,-0.5000001,-0.5000003
 	attRot = 0,0,-0.7071067,0.7071067
 	mir = 1,1,1
@@ -1795,11 +1796,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = MMI.K FuelTank 02 - 1m Regular_4288818150
-	link = fuelTank_4288817258
-	srfN = srfAttach,fuelTank.long_4288820630
-	attN = top,MMI.K FuelTank 02 - 1m Regular_4288818150
-	attN = bottom,fuelTank_4288817258
+	link = MMI.K FuelTank 02 - 1m Regular_4294113396
+	link = fuelTank_4294112768
+	srfN = srfAttach,fuelTank.long_4294115224
+	attN = top,MMI.K FuelTank 02 - 1m Regular_4294113396
+	attN = bottom,fuelTank_4294112768
 	EVENTS
 	{
 	}
@@ -1809,9 +1810,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288820566
+	part = strutConnector_4294115160
 	partName = StrutConnector
-	pos = 2.104577,23.50251,-1.546888
+	pos = 0.841582,23.48475,-1.918893
 	rot = 0.5615581,0.8043795,0.1291704,-0.1447126
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1820,8 +1821,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_110; pos: -0.2112045,0.1197587,0.538991; dir: -0.3572693,0.202589,0.9117655
-	srfN = srfAttach,fuelTank.long_4288820630
+	cData = tgt: fuelTank.long_125; pos: -0.2111973,0.1197543,0.538973; dir: -0.3572693,0.202589,0.9117655
+	srfN = srfAttach,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -1831,9 +1832,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288820510
+	part = strutConnector_4294115104
 	partName = StrutConnector
-	pos = 2.518268,23.5641,-0.8873885
+	pos = 1.255272,23.54633,-1.259393
 	rot = -0.5615572,-0.8043802,0.129171,-0.1447111
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1842,8 +1843,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_94; pos: -0.5180556,-0.006816909,-1.485578; dir: -0.3292731,-0.004332919,-0.9442248
-	srfN = srfAttach,fuelTank.long_4288820630
+	cData = tgt: fuelTank.long_109; pos: -0.5180556,-0.006817356,-1.485574; dir: -0.3292731,-0.004332919,-0.9442248
+	srfN = srfAttach,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -1853,9 +1854,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288820454
+	part = strutConnector_4294115048
 	partName = StrutConnector
-	pos = -0.4553024,23.71975,-0.8609749
+	pos = -1.718303,23.70197,-1.232981
 	rot = 4.494279E-07,0.130527,1.613367E-07,0.9914451
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1864,8 +1865,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_94; pos: -0.3801563,-0.04910343,1.491642; dir: -0.2468344,-0.03188318,0.968533
-	srfN = srfAttach,fuelTank.long_4288820630
+	cData = tgt: fuelTank.long_109; pos: -0.3801571,-0.04910343,1.491645; dir: -0.2468344,-0.03188318,0.968533
+	srfN = srfAttach,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -1875,9 +1876,9 @@ PART
 }
 PART
 {
-	part = fuelLine_4288820398
+	part = fuelLine_4294114992
 	partName = FuelLine
-	pos = 1.080776,23.68508,-1.791313
+	pos = -0.1822206,23.6673,-2.163318
 	rot = 0.1830129,0.683012,-0.1830134,-0.6830134
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1886,8 +1887,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_110; pos: -0.1947179,0.1081393,0.03846376; dir: -0.8614714,0.4784482,0.1701601; rot: 0.7499995,-0.4330128,0.2500003,-0.4330134
-	srfN = srfAttach,fuelTank.long_4288820630
+	cData = tgt: fuelTank.long_125; pos: -0.1947304,0.1081466,0.03846626; dir: -0.8614714,0.4784482,0.1701601; rot: 0.7499995,-0.4330128,0.2500003,-0.4330134
+	srfN = srfAttach,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -1897,10 +1898,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820318
+	part = trussPiece1x_4294114912
 	partName = Part
-	pos = 1.080776,23.05312,4.028281
-	rot = 7.725396E-07,0.7071064,8.89158E-08,0.7071075
+	pos = -0.1822206,23.03534,3.656321
+	rot = 1.338784E-06,0.7071064,1.187181E-07,0.7071075
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1908,14 +1909,12 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = trussPiece1x_4288820198
-	link = trussPiece1x_4288820178
-	link = strutConnector_4288819902
-	link = strutConnector_4288819846
-	sym = trussPiece1x_4288820258
-	sym = trussPiece1x_4288820298
-	sym = trussPiece1x_4288820278
-	attN = top,trussPiece1x_4288821022
+	link = trussPiece1x_4294110934
+	link = trussPiece1x_4294110804
+	sym = trussPiece1x_4294114852
+	sym = trussPiece1x_4294114892
+	sym = trussPiece1x_4294114872
+	attN = top,trussPiece1x_4294115616
 	EVENTS
 	{
 	}
@@ -1925,9 +1924,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820298
+	part = trussPiece1x_4294114892
 	partName = Part
-	pos = 1.080776,23.05313,-4.154315
+	pos = -0.1822206,23.03535,-4.526356
 	rot = -3.413207E-07,0.7071074,-3.752964E-07,-0.7071065
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1936,14 +1935,14 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = trussPiece1x_4288820218
-	link = strutConnector_4288819790
-	link = strutConnector_4288819734
-	link = trussPiece1x_4288819036
-	sym = trussPiece1x_4288820258
-	sym = trussPiece1x_4288820318
-	sym = trussPiece1x_4288820278
-	attN = top,trussPiece1x_4288821082
+	link = strutConnector_4294114556
+	link = strutConnector_4294114500
+	link = trussPiece1x_4294111210
+	link = trussPiece1x_4294111080
+	sym = trussPiece1x_4294114852
+	sym = trussPiece1x_4294114912
+	sym = trussPiece1x_4294114872
+	attN = top,trussPiece1x_4294115676
 	EVENTS
 	{
 	}
@@ -1953,9 +1952,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820278
+	part = trussPiece1x_4294114872
 	partName = Part
-	pos = 5.171968,23.05312,-0.06304117
+	pos = 3.908975,23.03534,-0.435045
 	rot = -3.738229E-07,1,8.741861E-08,-9.089708E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -1964,14 +1963,15 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = strutConnector_4288818486
-	link = trussPiece1x_4288816862
-	link = trussPiece1x_4288816842
-	link = MMI.K Miner 01_4288816498
-	sym = trussPiece1x_4288820258
-	sym = trussPiece1x_4288820318
-	sym = trussPiece1x_4288820298
-	attN = top,trussPiece1x_4288821062
+	link = trussPiece1x_4294112372
+	link = trussPiece1x_4294112352
+	link = strutConnector_4294110602
+	link = strutConnector_4294110546
+	link = MMI.K Miner 01_4294110490
+	sym = trussPiece1x_4294114852
+	sym = trussPiece1x_4294114912
+	sym = trussPiece1x_4294114892
+	attN = top,trussPiece1x_4294115656
 	EVENTS
 	{
 	}
@@ -1981,10 +1981,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820258
+	part = trussPiece1x_4294114852
 	partName = Part
-	pos = -3.010454,23.05313,-0.06302961
-	rot = -2.40407E-07,1.400709E-06,8.953635E-07,1
+	pos = -4.273474,23.03535,-0.4350342
+	rot = -4.490232E-07,2.279878E-06,1.87884E-06,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -1992,13 +1992,13 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = trussPiece1x_4288820238
-	link = trussPiece1x_4288819566
-	link = MMI.K Miner 01_4288816396
-	sym = trussPiece1x_4288820318
-	sym = trussPiece1x_4288820298
-	sym = trussPiece1x_4288820278
-	attN = top,trussPiece1x_4288821042
+	link = trussPiece1x_4294114832
+	link = trussPiece1x_4294114332
+	link = MMI.K Miner 01_4294112008
+	sym = trussPiece1x_4294114912
+	sym = trussPiece1x_4294114892
+	sym = trussPiece1x_4294114872
+	attN = top,trussPiece1x_4294115636
 	EVENTS
 	{
 	}
@@ -2008,10 +2008,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820238
+	part = trussPiece1x_4294114832
 	partName = Part
-	pos = -3.895867,22.85191,-0.0630283
-	rot = -0.5,0.500001,-0.4999993,-0.4999999
+	pos = -5.158895,22.83413,-0.4350331
+	rot = -0.5000004,0.5000014,-0.4999988,-0.4999999
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2019,11 +2019,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = modularwheel.ms_4288819440
-	link = strutConnector_4288818598
-	link = strutConnector_4288818430
-	srfN = srfAttach,trussPiece1x_4288820258
-	attN = top,modularwheel.ms_4288819440
+	link = modularwheel.ms_4294114206
+	srfN = srfAttach,trussPiece1x_4294114852
+	attN = top,modularwheel.ms_4294114206
 	EVENTS
 	{
 	}
@@ -2033,79 +2031,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288820218
+	part = largeSolarPanel_4294114812
 	partName = Part
-	pos = 1.964671,22.8687,-4.15431
-	rot = 0.5000011,0.499999,-0.4999994,0.5000011
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	link = modularwheel.m_4288817890
-	srfN = srfAttach,trussPiece1x_4288820298
-	attN = top,modularwheel.m_4288817890
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = trussPiece1x_4288820198
-	partName = Part
-	pos = 0.1967276,22.84088,4.028279
-	rot = -0.5000005,0.4999992,-0.5000008,-0.5
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	link = modularwheel.ms_4288819350
-	srfN = srfAttach,trussPiece1x_4288820318
-	attN = top,modularwheel.ms_4288819350
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = trussPiece1x_4288820178
-	partName = Part
-	pos = 1.966502,22.84751,4.028288
-	rot = -7.748604E-07,4.023314E-07,-0.7071069,0.7071071
-	attRot = 0,0,-0.7071068,0.7071068
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	link = strutConnector_4288818206
-	link = modularwheel.m_4288817728
-	srfN = srfAttach,trussPiece1x_4288820318
-	attN = top,modularwheel.m_4288817728
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = largeSolarPanel_4288820158
-	partName = Part
-	pos = 1.080776,25.3801,-1.782254
+	pos = -0.1822206,25.36233,-2.15426
 	rot = 0.4999993,-0.4999994,0.5000007,-0.500001
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
@@ -2114,10 +2042,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel_4288819966
-	sym = largeSolarPanel_4288820094
-	sym = largeSolarPanel_4288820030
-	srfN = srfAttach,trussPiece3x_4288821252
+	sym = largeSolarPanel_4294114620
+	sym = largeSolarPanel_4294114748
+	sym = largeSolarPanel_4294114684
+	srfN = srfAttach,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -2176,10 +2104,10 @@ PART
 }
 PART
 {
-	part = largeSolarPanel_4288820094
+	part = largeSolarPanel_4294114748
 	partName = Part
-	pos = 1.080776,25.3801,1.656181
-	rot = -0.5000002,0.5000008,0.4999996,-0.4999999
+	pos = -0.1822209,25.36233,1.284178
+	rot = -0.5000001,0.5000008,0.4999996,-0.4999999
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2187,10 +2115,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel_4288819966
-	sym = largeSolarPanel_4288820158
-	sym = largeSolarPanel_4288820030
-	srfN = srfAttach,trussPiece3x_4288821546
+	sym = largeSolarPanel_4294114620
+	sym = largeSolarPanel_4294114812
+	sym = largeSolarPanel_4294114684
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -2249,9 +2177,9 @@ PART
 }
 PART
 {
-	part = largeSolarPanel_4288820030
+	part = largeSolarPanel_4294114684
 	partName = Part
-	pos = -0.6384418,25.3801,-0.0630308
+	pos = -1.901441,25.36233,-0.4350375
 	rot = -0.7071067,0.7071071,6.332994E-07,-3.72529E-07
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
@@ -2260,10 +2188,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel_4288819966
-	sym = largeSolarPanel_4288820158
-	sym = largeSolarPanel_4288820094
-	srfN = srfAttach,trussPiece3x_4288821412
+	sym = largeSolarPanel_4294114620
+	sym = largeSolarPanel_4294114812
+	sym = largeSolarPanel_4294114748
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -2322,9 +2250,9 @@ PART
 }
 PART
 {
-	part = largeSolarPanel_4288819966
+	part = largeSolarPanel_4294114620
 	partName = Part
-	pos = 2.799977,25.3801,-0.06303766
+	pos = 1.53698,25.36233,-0.4350415
 	rot = 1.452863E-06,-3.799796E-07,0.7071069,-0.7071069
 	attRot = -0.7071068,0,0,0.7071068
 	mir = 1,1,1
@@ -2333,10 +2261,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	sym = largeSolarPanel_4288820158
-	sym = largeSolarPanel_4288820094
-	sym = largeSolarPanel_4288820030
-	srfN = srfAttach,trussPiece3x_4288821680
+	sym = largeSolarPanel_4294114812
+	sym = largeSolarPanel_4294114748
+	sym = largeSolarPanel_4294114684
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -2395,53 +2323,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819902
+	part = strutConnector_4294114556
 	partName = StrutConnector
-	pos = 0.77071,23.36285,3.718194
-	rot = -6.109476E-07,9.387732E-07,-0.7071068,0.7071072
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: trussPiece1x_50; pos: -0.07155416,-3.65217,-3.456665; dir: -0.01422751,-0.7262046,-0.6873314
-	srfN = srfAttach,trussPiece1x_4288820318
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288819846
-	partName = StrutConnector
-	pos = 1.380417,23.33498,3.728625
-	rot = -0.7071071,0.7071069,7.078052E-07,-9.685755E-08
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: trussPiece1x_8; pos: 0.002373904,-3.46699,3.505922; dir: 0.0004814719,-0.7031475,0.7110438
-	srfN = srfAttach,trussPiece1x_4288820318
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288819790
-	partName = StrutConnector
-	pos = 1.265646,23.37998,-3.834095
+	pos = 0.002651051,23.36222,-4.206121
 	rot = 0.7071072,-0.7071068,-6.332994E-07,9.164214E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2450,8 +2334,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_8; pos: -0.008703663,-3.582564,-3.446494; dir: -0.001750185,-0.7206589,-0.6932876
-	srfN = srfAttach,trussPiece1x_4288820298
+	cData = tgt: trussPiece1x_8; pos: -0.008703663,-3.582587,-3.446517; dir: -0.001750185,-0.7206589,-0.6932876
+	srfN = srfAttach,trussPiece1x_4294114892
 	EVENTS
 	{
 	}
@@ -2461,10 +2345,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819734
+	part = strutConnector_4294114500
 	partName = StrutConnector
-	pos = 0.7316737,23.43438,-3.952773
-	rot = -2.149301E-06,-0.2588186,3.915395E-07,-0.9659264
+	pos = -0.5313243,23.4166,-4.324811
+	rot = -4.205661E-06,-0.2588186,-1.747044E-07,-0.9659264
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2472,8 +2356,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_50; pos: -4.775444,-0.08700261,1.359607; dir: -0.9616314,-0.01751952,0.2737846
-	srfN = srfAttach,trussPiece1x_4288820298
+	cData = tgt: trussPiece1x_60; pos: -4.775488,-0.08700255,1.35962; dir: -0.9616314,-0.01751952,0.2737846
+	srfN = srfAttach,trussPiece1x_4294114892
 	EVENTS
 	{
 	}
@@ -2483,10 +2367,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819678
+	part = strutConnector_4294114444
 	partName = StrutConnector
-	pos = -3.04072,24.98348,0.2592535
-	rot = -6.237086E-07,-0.1305258,6.844303E-07,-0.9914451
+	pos = -4.303735,24.96571,-0.1127559
+	rot = -1.428371E-06,-0.1305258,1.489093E-06,-0.9914451
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2494,8 +2378,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_103; pos: -0.3352624,-0.3175295,0.5663449; dir: -0.458803,-0.4345309,0.7750372
-	srfN = srfAttach,trussPiece3x_4288821412
+	cData = tgt: fuelTank.long_118; pos: -0.3352702,-0.3175347,0.5663556; dir: -0.458803,-0.4345309,0.7750372
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -2505,9 +2389,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819622
+	part = strutConnector_4294114388
 	partName = StrutConnector
-	pos = 4.85006,24.46765,-0.1492966
+	pos = 3.587065,24.44987,-0.5213007
 	rot = -1.919126E-07,0.1305252,2.666787E-07,-0.9914453
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -2516,8 +2400,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: TTprotowheel.t2_13; pos: -1.602812,-1.084569,0.5471063; dir: -0.7969722,-0.5392857,0.2720409
-	srfN = srfAttach,trussPiece1x_4288821062
+	cData = tgt: TTprotowheel.t2_14; pos: -1.602809,-1.084567,0.5471051; dir: -0.7969722,-0.5392857,0.2720409
+	srfN = srfAttach,trussPiece1x_4294115656
 	EVENTS
 	{
 	}
@@ -2527,10 +2411,10 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288819566
+	part = trussPiece1x_4294114332
 	partName = Part
-	pos = -2.124189,22.81507,-0.0630314
-	rot = -2.980232E-08,4.246831E-07,-0.7071071,0.7071068
+	pos = -3.387201,22.79729,-0.4350384
+	rot = 5.215406E-08,8.419156E-07,-0.7071071,0.7071068
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2538,12 +2422,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = TTprotowheel.t2_4288819546
-	link = strutConnector_4288819496
-	link = strutConnector_4288818542
-	link = strutConnector_4288818374
-	srfN = srfAttach,trussPiece1x_4288820258
-	attN = top,TTprotowheel.t2_4288819546
+	link = TTprotowheel.t2_4294114312
+	link = strutConnector_4294114262
+	link = strutConnector_4294113564
+	srfN = srfAttach,trussPiece1x_4294114852
+	attN = top,TTprotowheel.t2_4294114312
 	EVENTS
 	{
 	}
@@ -2553,10 +2436,10 @@ PART
 }
 PART
 {
-	part = TTprotowheel.t2_4288819546
+	part = TTprotowheel.t2_4294114312
 	partName = Part
-	pos = -0.9399092,22.81507,-0.06303551
-	rot = 1.187181E-07,-0.7071073,-2.046429E-07,0.7071064
+	pos = -2.202914,22.79729,-0.4350449
+	rot = -4.177237E-07,-0.7071074,-7.936121E-07,0.7071065
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2564,10 +2447,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = strutConnector_4288819260
-	link = strutConnector_4288819204
-	link = strutConnector_4288819148
-	attN = front1,trussPiece1x_4288819566
+	link = strutConnector_4294114116
+	link = strutConnector_4294114060
+	link = strutConnector_4294114004
+	attN = front1,trussPiece1x_4294114332
 	EVENTS
 	{
 	}
@@ -2654,10 +2537,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819496
+	part = strutConnector_4294114262
 	partName = StrutConnector
-	pos = -1.750936,23.13964,-0.06303348
-	rot = -2.844158E-07,1,-1.51E-07,3.278255E-07
+	pos = -3.013951,23.12186,-0.4350428
+	rot = 4.010375E-07,1,-6.12936E-07,3.427267E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2665,8 +2548,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_49; pos: 0.9349472,0.8578405,0.07537542; dir: 0.73554,0.6748811,0.05929838
-	srfN = srfAttach,trussPiece1x_4288819566
+	cData = tgt: trussPiece1x_59; pos: 0.9349525,0.8578429,0.07537584; dir: 0.73554,0.6748811,0.05929838
+	srfN = srfAttach,trussPiece1x_4294114332
 	EVENTS
 	{
 	}
@@ -2676,10 +2559,10 @@ PART
 }
 PART
 {
-	part = modularwheel.ms_4288819440
+	part = modularwheel.ms_4294114206
 	partName = Part
-	pos = -5.08014,22.85191,-0.06302663
-	rot = -6.859447E-07,-0.7071072,1.240073E-07,0.7071066
+	pos = -6.34317,22.83413,-0.4350265
+	rot = -1.460805E-06,-0.7071074,-7.227277E-07,0.7071065
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -2687,9 +2570,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = strutConnector_4288818318
-	link = strutConnector_4288818262
-	attN = front2,trussPiece1x_4288820238
+	link = strutConnector_4294113508
+	link = strutConnector_4294113452
+	attN = front2,trussPiece1x_4294114832
 	EVENTS
 	{
 	}
@@ -2776,108 +2659,10 @@ PART
 }
 PART
 {
-	part = modularwheel.ms_4288819350
-	partName = Part
-	pos = -0.9875615,22.84088,4.02827
-	rot = -1.371398E-06,-0.7071071,-1.189772E-06,0.7071069
-	attRot = 0,-0.7071068,0,0.7071068
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	attN = front2,trussPiece1x_4288820198
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCleverLegacyCart
-		isEnabled = True
-		EVENTS
-		{
-			ToggleSteeringEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Steering
-				guiName = Enable Steering
-				category = Enable Steering
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleMotorEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Motor
-				guiName = Enable Motor
-				category = Enable Motor
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleHandbrake
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Handbrake On
-				guiName = Turn Handbrake On
-				category = Turn Handbrake On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleCruiseControl
-			{
-				active = True
-				guiActive = True
-				guiIcon = Cruise Control
-				guiName = Cruise Control
-				category = Cruise Control
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleLights
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Lights On
-				guiName = Turn Lights On
-				category = Turn Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleWheelsDeployed
-			{
-				active = True
-				guiActive = True
-				guiIcon = Deploy Wheels
-				guiName = Deploy Wheels
-				category = Deploy Wheels
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4288819260
+	part = strutConnector_4294114116
 	partName = StrutConnector
-	pos = -0.5898974,23.26018,0.0307493
-	rot = -4.038736E-07,0.9914451,1.472091E-07,0.1305265
+	pos = -1.852901,23.2424,-0.3412602
+	rot = -7.615016E-07,0.991445,1.472092E-07,0.1305279
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2885,8 +2670,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_28; pos: -2.472102,-0.4203444,-3.140132; dir: -0.6151793,-0.1046009,-0.7814174
-	srfN = srfAttach,TTprotowheel.t2_4288819546
+	cData = tgt: trussPiece1x_32; pos: -2.472135,-0.4203486,-3.140172; dir: -0.6151793,-0.1046009,-0.7814174
+	srfN = srfAttach,TTprotowheel.t2_4294114312
 	EVENTS
 	{
 	}
@@ -2896,10 +2681,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819204
+	part = strutConnector_4294114060
 	partName = StrutConnector
-	pos = -0.6202669,23.28054,-0.06303688
-	rot = -0.7071069,0.707107,3.72529E-07,0
+	pos = -1.883268,23.26276,-0.4350478
+	rot = -0.7071071,0.7071068,1.937151E-07,2.682209E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2907,7 +2692,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,TTprotowheel.t2_4288819546
+	srfN = srfAttach,TTprotowheel.t2_4294114312
 	EVENTS
 	{
 	}
@@ -2917,10 +2702,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819148
+	part = strutConnector_4294114004
 	partName = StrutConnector
-	pos = -0.6186931,23.28128,-0.06303623
-	rot = -0.7071067,0.707107,1.639128E-07,-2.30968E-07
+	pos = -1.881696,23.2635,-0.4350466
+	rot = -0.7071068,0.707107,-4.470348E-08,-3.20375E-07
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2928,8 +2713,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_75; pos: 0.3348107,-1.527576,3.766712; dir: 0.08209261,-0.3745492,0.9235657
-	srfN = srfAttach,TTprotowheel.t2_4288819546
+	cData = tgt: trussPiece1x_83; pos: 0.3348151,-1.527588,3.766741; dir: 0.08209261,-0.3745492,0.9235657
+	srfN = srfAttach,TTprotowheel.t2_4294114312
 	EVENTS
 	{
 	}
@@ -2939,10 +2724,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288819092
+	part = strutConnector_4294113948
 	partName = StrutConnector
-	pos = -3.335508,24.53615,-0.06303569
-	rot = 2.702092E-07,-1.162291E-06,-7.463519E-07,-1
+	pos = -4.598534,24.51838,-0.4350465
+	rot = 4.192209E-07,-2.145767E-06,-1.670224E-06,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -2950,8 +2735,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.ms_52; pos: -1.901871,-1.275663,-0.02233412; dir: -0.8304461,-0.5570138,-0.009751667
-	srfN = srfAttach,trussPiece1x_4288821042
+	cData = tgt: modularwheel.ms_62; pos: -1.901901,-1.27568,-0.02233565; dir: -0.8304461,-0.5570138,-0.009751667
+	srfN = srfAttach,trussPiece1x_4294115636
 	EVENTS
 	{
 	}
@@ -2961,130 +2746,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288819036
-	partName = Part
-	pos = 0.1965773,22.87224,-4.15432
-	rot = -0.5000001,0.5000007,-0.5000004,-0.4999995
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	link = modularwheel.ms_4288819016
-	srfN = srfAttach,trussPiece1x_4288820298
-	attN = top,modularwheel.ms_4288819016
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = modularwheel.ms_4288819016
-	partName = Part
-	pos = -0.9877081,22.87224,-4.154327
-	rot = 6.691463E-07,-0.707105,3.45494E-07,0.707109
-	attRot = 0,-0.7071068,0,0.7071068
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	attN = front2,trussPiece1x_4288819036
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCleverLegacyCart
-		isEnabled = True
-		EVENTS
-		{
-			ToggleSteeringEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Steering
-				guiName = Enable Steering
-				category = Enable Steering
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleMotorEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Motor
-				guiName = Enable Motor
-				category = Enable Motor
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleHandbrake
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Handbrake On
-				guiName = Turn Handbrake On
-				category = Turn Handbrake On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleCruiseControl
-			{
-				active = True
-				guiActive = True
-				guiIcon = Cruise Control
-				guiName = Cruise Control
-				category = Cruise Control
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleLights
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Lights On
-				guiName = Turn Lights On
-				category = Turn Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleWheelsDeployed
-			{
-				active = True
-				guiActive = True
-				guiIcon = Deploy Wheels
-				guiName = Deploy Wheels
-				category = Deploy Wheels
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4288818926
+	part = strutConnector_4294113892
 	partName = StrutConnector
-	pos = 0.7544237,24.62192,-4.154297
+	pos = -0.5085749,24.60415,-4.526325
 	rot = -2.364302E-07,0,-8.171241E-14,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3093,8 +2757,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.ms_81; pos: -1.749764,-1.279138,-0.06593928; dir: -0.8069159,-0.5898832,-0.03040566
-	srfN = srfAttach,trussPiece1x_4288821082
+	cData = tgt: trussPiece1x_87; pos: -2.009596,-1.469085,-0.07572822; dir: -0.8069159,-0.5898832,-0.03040566
+	srfN = srfAttach,trussPiece1x_4294115676
 	EVENTS
 	{
 	}
@@ -3104,10 +2768,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818870
+	part = strutConnector_4294113836
 	partName = StrutConnector
-	pos = 0.7758564,25.07527,3.993655
-	rot = 3.003883E-07,-0.6087613,5.978866E-08,-0.7933536
+	pos = -0.4871441,25.05749,3.621675
+	rot = 3.301907E-07,-0.6087613,8.959098E-08,-0.7933537
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3115,8 +2779,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.ms_30; pos: -0.5109764,-1.776469,-1.728153; dir: -0.2019254,-0.7020218,-0.6829287
-	srfN = srfAttach,trussPiece3x_4288821546
+	cData = tgt: trussPiece1x_34; pos: -0.5489265,-1.908404,-1.856498; dir: -0.2019254,-0.7020218,-0.6829287
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -3126,9 +2790,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818814
+	part = strutConnector_4294113780
 	partName = StrutConnector
-	pos = -3.213072,25.07368,-0.06303927
+	pos = -4.476088,25.05591,-0.4350511
 	rot = 2.40407E-07,-4.023314E-07,-1.205031E-07,-1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3137,8 +2801,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_51; pos: -0.986808,-1.897206,-0.009283389; dir: -0.4614437,-0.8871589,-0.004340388
-	srfN = srfAttach,trussPiece3x_4288821412
+	cData = tgt: trussPiece1x_61; pos: -0.986813,-1.897215,-0.009283031; dir: -0.4614437,-0.8871589,-0.004340388
+	srfN = srfAttach,trussPiece3x_4294116006
 	EVENTS
 	{
 	}
@@ -3148,9 +2812,9 @@ PART
 }
 PART
 {
-	part = fuelLine_4288818758
+	part = fuelLine_4294113724
 	partName = FuelLine
-	pos = 1.080776,23.80537,-0.6842875
+	pos = -0.1822205,23.7876,-1.056295
 	rot = 0.1830129,0.6830131,0.1830128,0.6830125
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3159,8 +2823,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: probeCoreOcto_90; pos: -0.2955283,0.2653714,0.01742579; dir: -0.743332,0.6674851,0.04383068; rot: 2.528811E-07,-3.793216E-07,-0.8660254,0.4999999
-	srfN = srfAttach,fuelTank.long_4288820630
+	cData = tgt: probeCoreOcto_105; pos: -0.2955282,0.2653713,0.01742585; dir: -0.743332,0.6674851,0.04383068; rot: 2.528811E-07,-3.793216E-07,-0.8660254,0.4999999
+	srfN = srfAttach,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -3170,9 +2834,9 @@ PART
 }
 PART
 {
-	part = fuelLine_4288818678
+	part = fuelLine_4294113644
 	partName = FuelLine
-	pos = 1.080776,23.70868,0.6562501
+	pos = -0.1822205,23.6909,0.28425
 	rot = -0.1830122,-0.6830127,0.1830126,0.6830131
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -3181,8 +2845,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: probeCoreOcto_90; pos: -0.3385012,0.4018304,0.00135509; dir: -0.644263,0.7647997,0.002580132; rot: -0.5000003,0.8660253,-2.528811E-07,-6.322027E-08
-	srfN = srfAttach,fuelTank.long_4288820850
+	cData = tgt: probeCoreOcto_105; pos: -0.3385157,0.4018476,0.001355343; dir: -0.644263,0.7647997,0.002580132; rot: -0.5000003,0.8660253,-2.528811E-07,-6.322027E-08
+	srfN = srfAttach,fuelTank.long_4294115444
 	EVENTS
 	{
 	}
@@ -3192,10 +2856,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818598
+	part = strutConnector_4294113564
 	partName = StrutConnector
-	pos = -4.216868,23.11809,-0.3840252
-	rot = -5.826269E-08,0.3826833,9.070146E-07,-0.9238798
+	pos = -3.062244,22.92147,-0.1100737
+	rot = 1.562666E-06,0.92388,3.562859E-07,0.3826831
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3203,8 +2867,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_80; pos: 0.3670361,0.009879383,-5.240028; dir: 0.06987306,0.001881093,-0.9975541
-	srfN = srfAttach,trussPiece1x_4288820238
+	cData = tgt: trussPiece1x_39; pos: -5.346484,0.08365079,0.478996; dir: -0.9958898,0.01558282,0.08922231
+	srfN = srfAttach,trussPiece1x_4294114332
 	EVENTS
 	{
 	}
@@ -3214,10 +2878,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818542
+	part = strutConnector_4294113508
 	partName = StrutConnector
-	pos = -1.804937,22.94777,-0.3822882
-	rot = 1.310868E-06,0.9238797,8.023306E-07,-0.3826834
+	pos = -6.343176,23.30427,-0.5440768
+	rot = -0.6532868,0.7071062,-5.587935E-07,-0.2705878
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3225,8 +2889,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_76; pos: -5.013283,0.1419868,-0.1378453; dir: -0.9992219,0.02830043,-0.02747444
-	srfN = srfAttach,trussPiece1x_4288819566
+	srfN = srfAttach,modularwheel.ms_4294114206
 	EVENTS
 	{
 	}
@@ -3236,10 +2899,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818486
+	part = strutConnector_4294113452
 	partName = StrutConnector
-	pos = 5.171984,22.72825,-0.3891415
-	rot = -2.906303E-08,0.707107,2.748149E-08,-0.7071068
+	pos = -6.380447,23.25945,-0.5741299
+	rot = -0.01983655,-0.6083329,0.02305718,0.7930993
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3247,8 +2910,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_76; pos: -3.440602,0.2829191,2.897462; dir: -0.7633895,0.06277362,0.642881
-	srfN = srfAttach,trussPiece1x_4288820278
+	srfN = srfAttach,modularwheel.ms_4294114206
 	EVENTS
 	{
 	}
@@ -3258,120 +2920,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818430
-	partName = StrutConnector
-	pos = -4.244454,23.07464,0.2855574
-	rot = 1.960472E-07,-0.3826829,-1.520353E-06,-0.9238801
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: trussPiece1x_29; pos: 0.4453034,-0.03399057,5.279297; dir: 0.08404896,-0.006415319,0.996441
-	srfN = srfAttach,trussPiece1x_4288820238
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288818374
-	partName = StrutConnector
-	pos = -1.799229,22.93925,0.2619309
-	rot = 4.599798E-07,0.9238797,1.77472E-07,0.3826833
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: trussPiece1x_31; pos: -5.346414,0.08365101,0.4789858; dir: -0.9958898,0.01558282,0.08922231
-	srfN = srfAttach,trussPiece1x_4288819566
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288818318
-	partName = StrutConnector
-	pos = -5.080145,23.32205,-0.1720733
-	rot = -0.6532863,0.7071067,-3.72529E-08,-0.2705876
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: modularwheel.ms_30; pos: 1.605572,-2.394753,-5.026395; dir: 0.2770807,-0.4132739,-0.8674278
-	srfN = srfAttach,modularwheel.ms_4288819440
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288818262
-	partName = StrutConnector
-	pos = -5.117417,23.27723,-0.2021279
-	rot = -0.01983723,-0.6083329,0.02305656,0.7930993
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: modularwheel.ms_81; pos: -2.822028,0.2288763,-4.963525; dir: -0.493857,0.04005338,-0.8686201
-	srfN = srfAttach,modularwheel.ms_4288819440
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = strutConnector_4288818206
-	partName = StrutConnector
-	pos = 2.320487,22.86799,3.67429
-	rot = 5.917027E-08,0.9238799,-3.213446E-08,-0.3826837
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	cData = tgt: MMI.K Miner 01_16; pos: -4.270043,-0.0695746,0.360378; dir: -0.996326,-0.01623386,0.08408841
-	srfN = srfAttach,trussPiece1x_4288820178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-}
-PART
-{
-	part = MMI.K FuelTank 02 - 1m Regular_4288818150
+	part = MMI.K FuelTank 02 - 1m Regular_4294113396
 	partName = Part
-	pos = -1.731734,24.0432,-2.519952
-	rot = -7.152557E-07,-1.043081E-07,-0.7071069,0.7071069
+	pos = -2.99474,24.02542,-2.891969
+	rot = -1.184642E-06,-2.756715E-07,-0.7071069,0.7071069
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3379,8 +2931,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = spotLight1_4288817566
-	attN = top,fuelTank.long_4288820598
+	link = spotLight1_4294113024
+	attN = top,fuelTank.long_4294115192
 	EVENTS
 	{
 	}
@@ -3390,10 +2942,10 @@ PART
 }
 PART
 {
-	part = MMI.K FuelTank 02 - 1m Regular_4288818128
+	part = MMI.K FuelTank 02 - 1m Regular_4294113374
 	partName = Part
-	pos = -1.731725,24.08075,2.394032
-	rot = 7.078052E-07,6.780028E-07,-0.7071068,0.7071071
+	pos = -2.994725,24.06297,2.022039
+	rot = 2.108514E-06,1.750886E-06,-0.7071063,0.7071075
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3401,8 +2953,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = spotLight1_4288817532
-	attN = top,fuelTank.long_4288820818
+	link = spotLight1_4294112990
+	attN = top,fuelTank.long_4294115412
 	EVENTS
 	{
 	}
@@ -3412,10 +2964,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818106
+	part = strutConnector_4294113352
 	partName = StrutConnector
-	pos = 0.8058149,25.1018,2.379436
-	rot = -8.833187E-08,0.4999999,2.768769E-08,-0.8660256
+	pos = -0.457183,25.08403,2.007443
+	rot = -8.833187E-08,0.4999999,5.749001E-08,-0.8660256
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3423,8 +2975,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: MMI.K FuelTank 02 - 1m Regular_96; pos: -1.622361,-0.3990535,2.793573; dir: -0.4984138,-0.1225958,0.8582272
-	srfN = srfAttach,trussPiece3x_4288821546
+	cData = tgt: MMI.K FuelTank 02 - 1m Regular_111; pos: -1.622405,-0.3990653,2.793649; dir: -0.4984138,-0.1225958,0.8582272
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -3434,9 +2986,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288818050
+	part = strutConnector_4294113296
 	partName = StrutConnector
-	pos = 0.8123826,25.04626,-2.516883
+	pos = -0.4506139,25.02849,-2.888901
 	rot = -2.364302E-07,2.086163E-07,-2.23656E-07,-1
 	attRot = 0,-0.5000001,0,0.8660254
 	mir = 1,1,1
@@ -3445,8 +2997,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: MMI.K FuelTank 02 - 1m Regular_111; pos: -3.372594,-0.378348,-0.005267301; dir: -0.9937651,-0.1114836,-0.001551319
-	srfN = srfAttach,trussPiece3x_4288821252
+	cData = tgt: MMI.K FuelTank 02 - 1m Regular_126; pos: -3.372677,-0.3783575,-0.005266824; dir: -0.9937651,-0.1114836,-0.001551319
+	srfN = srfAttach,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -3456,10 +3008,10 @@ PART
 }
 PART
 {
-	part = radialLiquidEngine1-2_4288817994
+	part = radialLiquidEngine1-2_4294113240
 	partName = Part
-	pos = 1.080775,23.70266,-5.064659
-	rot = 7.349676E-14,1,-1.988381E-09,-4.470348E-08
+	pos = -0.1822218,23.68488,-5.436699
+	rot = 3.71897E-13,1,-1.988381E-09,-4.470348E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3467,7 +3019,7 @@ PART
 	sidx = 1
 	sqor = 0
 	attm = 1
-	srfN = srfAttach,trussPiece1x_4288821082
+	srfN = srfAttach,trussPiece1x_4294115676
 	EVENTS
 	{
 	}
@@ -3565,10 +3117,10 @@ PART
 }
 PART
 {
-	part = radialLiquidEngine1-2_4288817942
+	part = radialLiquidEngine1-2_4294113188
 	partName = Part
-	pos = 1.080776,23.71035,4.94022
-	rot = -1.988381E-09,0,-4.10505E-13,1
+	pos = -0.1822204,23.69257,4.568251
+	rot = -1.988381E-09,0,-1.049855E-12,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3576,7 +3128,7 @@ PART
 	sidx = 1
 	sqor = 0
 	attm = 1
-	srfN = srfAttach,trussPiece1x_4288821022
+	srfN = srfAttach,trussPiece1x_4294115616
 	EVENTS
 	{
 	}
@@ -3674,108 +3226,10 @@ PART
 }
 PART
 {
-	part = modularwheel.m_4288817890
-	partName = Part
-	pos = 3.148953,22.8687,-4.154309
-	rot = -3.739351E-07,-0.707107,4.050987E-07,0.7071069
-	attRot = 0,-0.7071068,0,0.7071068
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	attN = front1,trussPiece1x_4288820218
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCleverLegacyCart
-		isEnabled = True
-		EVENTS
-		{
-			ToggleSteeringEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Steering
-				guiName = Enable Steering
-				category = Enable Steering
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleMotorEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Motor
-				guiName = Enable Motor
-				category = Enable Motor
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleHandbrake
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Handbrake On
-				guiName = Turn Handbrake On
-				category = Turn Handbrake On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleCruiseControl
-			{
-				active = True
-				guiActive = True
-				guiIcon = Cruise Control
-				guiName = Cruise Control
-				category = Cruise Control
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleLights
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Lights On
-				guiName = Turn Lights On
-				category = Turn Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleWheelsDeployed
-			{
-				active = True
-				guiActive = True
-				guiIcon = Deploy Wheels
-				guiName = Deploy Wheels
-				category = Deploy Wheels
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4288817784
+	part = strutConnector_4294113136
 	partName = StrutConnector
-	pos = 1.407376,24.60176,-4.154299
-	rot = 4.846124E-14,1,-1.988382E-09,0
+	pos = 0.1443812,24.58399,-4.526327
+	rot = 3.11362E-13,1,-1.988382E-09,0
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -3783,8 +3237,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.m_77; pos: -1.758197,-1.266232,-0.0241322; dir: -0.8114114,-0.5843692,-0.01113913
-	srfN = srfAttach,trussPiece1x_4288821082
+	cData = tgt: trussPiece1x_92; pos: -2.029893,-1.461905,-0.0278624; dir: -0.8114114,-0.5843692,-0.01113913
+	srfN = srfAttach,trussPiece1x_4294115676
 	EVENTS
 	{
 	}
@@ -3794,108 +3248,10 @@ PART
 }
 PART
 {
-	part = modularwheel.m_4288817728
-	partName = Part
-	pos = 3.150777,22.84751,4.028294
-	rot = -2.379275E-07,0.7071071,-6.192548E-08,-0.7071069
-	attRot = 0,0.7071067,0,-0.7071067
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 0
-	attN = front1,trussPiece1x_4288820178
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCleverLegacyCart
-		isEnabled = True
-		EVENTS
-		{
-			ToggleSteeringEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Steering
-				guiName = Enable Steering
-				category = Enable Steering
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleMotorEnabled
-			{
-				active = True
-				guiActive = True
-				guiIcon = Enable Motor
-				guiName = Enable Motor
-				category = Enable Motor
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleHandbrake
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Handbrake On
-				guiName = Turn Handbrake On
-				category = Turn Handbrake On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleCruiseControl
-			{
-				active = True
-				guiActive = True
-				guiIcon = Cruise Control
-				guiName = Cruise Control
-				category = Cruise Control
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleLights
-			{
-				active = True
-				guiActive = True
-				guiIcon = Turn Lights On
-				guiName = Turn Lights On
-				category = Turn Lights On
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			ToggleWheelsDeployed
-			{
-				active = True
-				guiActive = True
-				guiIcon = Deploy Wheels
-				guiName = Deploy Wheels
-				category = Deploy Wheels
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
-	}
-}
-PART
-{
-	part = strutConnector_4288817622
+	part = strutConnector_4294113080
 	partName = StrutConnector
-	pos = 1.407361,25.04701,4.074525
-	rot = -1.500348E-07,0.9914451,4.746969E-07,-0.1305262
+	pos = 0.1443669,25.02923,3.702549
+	rot = -1.500348E-07,0.9914451,5.343016E-07,-0.1305262
 	attRot = 0,0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -3903,8 +3259,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.m_33; pos: -1.833545,-1.784133,-0.4373845; dir: -0.706448,-0.6874102,-0.1685183
-	srfN = srfAttach,trussPiece3x_4288821546
+	cData = tgt: trussPiece1x_40; pos: -1.929082,-1.877095,-0.4601739; dir: -0.706448,-0.6874102,-0.1685183
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -3914,10 +3270,10 @@ PART
 }
 PART
 {
-	part = spotLight1_4288817566
+	part = spotLight1_4294113024
 	partName = Part
-	pos = -2.736684,24.26771,-2.519953
-	rot = -0.4304597,-0.5609858,0.4304593,-0.5609857
+	pos = -3.999704,24.24993,-2.891973
+	rot = -0.4304598,-0.5609857,0.4304598,-0.560985
 	attRot = -0.6087615,0,0,0.7933535
 	mir = 1,1,1
 	istg = 0
@@ -3925,7 +3281,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,MMI.K FuelTank 02 - 1m Regular_4288818150
+	srfN = srfAttach,MMI.K FuelTank 02 - 1m Regular_4294113396
 	EVENTS
 	{
 	}
@@ -3981,10 +3337,10 @@ PART
 }
 PART
 {
-	part = spotLight1_4288817532
+	part = spotLight1_4294112990
 	partName = Part
-	pos = -2.736554,24.31234,2.394035
-	rot = -0.4304592,-0.5609858,0.4304592,-0.5609857
+	pos = -3.99956,24.29456,2.022038
+	rot = -0.4304591,-0.5609857,0.4304594,-0.5609857
 	attRot = -0.6087615,0,0,0.7933535
 	mir = 1,1,1
 	istg = 0
@@ -3992,7 +3348,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,MMI.K FuelTank 02 - 1m Regular_4288818128
+	srfN = srfAttach,MMI.K FuelTank 02 - 1m Regular_4294113374
 	EVENTS
 	{
 	}
@@ -4048,10 +3404,10 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288817498
+	part = fuelTank.long_4294112956
 	partName = Part
-	pos = -2.669226,24.02644,-1.272554
-	rot = -9.387732E-07,-6.705523E-08,-0.7071068,0.707107
+	pos = -3.932226,24.00867,-1.644559
+	rot = -2.287328E-06,-1.564622E-07,-0.7071068,0.7071071
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4059,9 +3415,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = Mark1Cockpit_4288817370
-	attN = top,fuelTank.long_4288820630
-	attN = bottom,Mark1Cockpit_4288817370
+	link = Mark1Cockpit_4294111834
+	attN = top,fuelTank.long_4294115224
+	attN = bottom,Mark1Cockpit_4294111834
 	EVENTS
 	{
 	}
@@ -4071,9 +3427,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288817466
+	part = fuelTank.long_4294112924
 	partName = Part
-	pos = -2.669226,24.0975,1.146634
+	pos = -3.932231,24.07972,0.7746316
 	rot = 2.980232E-08,-7.450581E-09,-0.7071069,0.7071069
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
@@ -4082,9 +3438,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = Mark1Cockpit_4288809700
-	attN = top,fuelTank.long_4288820850
-	attN = bottom,Mark1Cockpit_4288809700
+	link = Mark1Cockpit_4294111522
+	attN = top,fuelTank.long_4294115444
+	attN = bottom,Mark1Cockpit_4294111522
 	EVENTS
 	{
 	}
@@ -4094,10 +3450,10 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288817434
+	part = fuelTank.long_4294112892
 	partName = Part
-	pos = 4.855783,24.02644,-1.272551
-	rot = -9.387732E-07,-6.705523E-08,-0.7071068,0.707107
+	pos = 3.592789,24.00867,-1.644555
+	rot = -2.287328E-06,-1.564622E-07,-0.7071068,0.7071071
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4105,7 +3461,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = bottom,fuelTank.long_4288820630
+	attN = bottom,fuelTank.long_4294115224
 	EVENTS
 	{
 	}
@@ -4115,9 +3471,9 @@ PART
 }
 PART
 {
-	part = fuelTank.long_4288817402
+	part = fuelTank.long_4294112860
 	partName = Part
-	pos = 4.855784,24.0975,1.146637
+	pos = 3.592798,24.07972,0.7746344
 	rot = 2.980232E-08,-7.450581E-09,-0.7071069,0.7071069
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
@@ -4126,7 +3482,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = bottom,fuelTank.long_4288820850
+	attN = bottom,fuelTank.long_4294115444
 	EVENTS
 	{
 	}
@@ -4136,10 +3492,10 @@ PART
 }
 PART
 {
-	part = fuelTank_4288817318
+	part = fuelTank_4294112828
 	partName = Part
-	pos = 3.880777,24.08075,2.394037
-	rot = 6.258488E-07,6.183982E-07,-0.7071068,0.7071071
+	pos = 2.617782,24.06297,2.022035
+	rot = 1.959503E-06,1.631677E-06,-0.7071063,0.7071075
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4147,9 +3503,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = MMI.K Converter Medium_4288817286
-	attN = top,MMI.K Converter Medium_4288817286
-	attN = bottom,fuelTank.long_4288820818
+	link = MMI.K Converter Medium_4294112796
+	attN = top,MMI.K Converter Medium_4294112796
+	attN = bottom,fuelTank.long_4294115412
 	EVENTS
 	{
 	}
@@ -4159,10 +3515,10 @@ PART
 }
 PART
 {
-	part = MMI.K Converter Medium_4288817286
+	part = MMI.K Converter Medium_4294112796
 	partName = Part
-	pos = 5.15897,24.08075,2.394043
-	rot = -3.72529E-08,-4.470348E-08,-0.7071067,0.7071072
+	pos = 3.895973,24.06297,2.022058
+	rot = -3.874302E-07,4.470348E-08,-0.7071066,0.7071072
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4170,7 +3526,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = bottom,fuelTank_4288817318
+	attN = bottom,fuelTank_4294112828
 	EVENTS
 	{
 	}
@@ -4360,10 +3716,10 @@ PART
 }
 PART
 {
-	part = fuelTank_4288817258
+	part = fuelTank_4294112768
 	partName = Part
-	pos = 3.880778,24.0432,-2.51995
-	rot = -6.631017E-07,-3.72529E-08,-0.7071069,0.7071069
+	pos = 2.617787,24.02542,-2.891963
+	rot = -1.184642E-06,-2.756715E-07,-0.7071069,0.7071069
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4371,9 +3727,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = MMI.K Converter Medium_4288817226
-	attN = top,MMI.K Converter Medium_4288817226
-	attN = bottom,fuelTank.long_4288820598
+	link = MMI.K Converter Medium_4294112736
+	attN = top,MMI.K Converter Medium_4294112736
+	attN = bottom,fuelTank.long_4294115192
 	EVENTS
 	{
 	}
@@ -4383,10 +3739,10 @@ PART
 }
 PART
 {
-	part = MMI.K Converter Medium_4288817226
+	part = MMI.K Converter Medium_4294112736
 	partName = Part
-	pos = 5.15898,24.0432,-2.519958
-	rot = -3.054738E-07,-1.192093E-07,-0.707107,0.7071068
+	pos = 3.896004,24.02542,-2.891981
+	rot = -6.705523E-08,-3.72529E-08,-0.7071068,0.7071071
 	attRot = 0,0,-0.7071068,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4394,7 +3750,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = bottom,fuelTank_4288817258
+	attN = bottom,fuelTank_4294112768
 	EVENTS
 	{
 	}
@@ -4584,9 +3940,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288817198
+	part = strutConnector_4294112708
 	partName = StrutConnector
-	pos = 1.40889,25.11516,1.149221
+	pos = 0.1458959,25.09739,0.7772185
 	rot = -3.175855E-08,0.9238798,-6.094657E-08,0.3826833
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4595,8 +3951,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_107; pos: -3.640144,-0.3985864,3.607412; dir: -0.7081551,-0.07754088,0.7017862
-	srfN = srfAttach,trussPiece1x_4288821566
+	cData = tgt: fuelTank.long_122; pos: -3.640248,-0.3985979,3.607516; dir: -0.7081551,-0.07754088,0.7017862
+	srfN = srfAttach,trussPiece1x_4294116160
 	EVENTS
 	{
 	}
@@ -4606,10 +3962,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288817142
+	part = strutConnector_4294112652
 	partName = StrutConnector
-	pos = 1.366742,25.0576,2.360383
-	rot = -3.726553E-07,0.8660256,-1.811828E-07,-0.5000001
+	pos = 0.1037471,25.03983,1.988399
+	rot = -5.961728E-07,0.8660256,-8.964386E-07,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4617,8 +3973,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank_98; pos: -1.639161,-0.357783,-2.885802; dir: -0.4910514,-0.1071823,-0.8645117
-	srfN = srfAttach,trussPiece3x_4288821546
+	cData = tgt: fuelTank_113; pos: -1.639215,-0.3577908,-2.88589; dir: -0.4910514,-0.1071823,-0.8645117
+	srfN = srfAttach,trussPiece3x_4294116140
 	EVENTS
 	{
 	}
@@ -4628,9 +3984,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288817086
+	part = strutConnector_4294112596
 	partName = StrutConnector
-	pos = 1.379702,25.04419,-1.246098
+	pos = 0.1167057,25.02641,-1.618103
 	rot = -9.5721E-09,0.9238797,5.49068E-09,-0.3826836
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4639,8 +3995,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_124; pos: -3.703489,-0.3986798,-3.718638; dir: -0.7036346,-0.07574581,-0.7065132
-	srfN = srfAttach,trussPiece1x_4288821272
+	cData = tgt: fuelTank.long_139; pos: -3.703363,-0.3986645,-3.718512; dir: -0.7036346,-0.07574581,-0.7065132
+	srfN = srfAttach,trussPiece1x_4294115866
 	EVENTS
 	{
 	}
@@ -4650,9 +4006,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288817030
+	part = strutConnector_4294112540
 	partName = StrutConnector
-	pos = 1.384232,25.07986,-2.456153
+	pos = 0.1212356,25.06209,-2.828167
 	rot = 1.811687E-07,0.8660255,7.811086E-08,0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4661,8 +4017,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank_113; pos: -1.649053,-0.4175867,2.905411; dir: -0.4898032,-0.1240313,0.8629653
-	srfN = srfAttach,trussPiece3x_4288821252
+	cData = tgt: fuelTank_128; pos: -1.649096,-0.4175962,2.905484; dir: -0.4898032,-0.1240313,0.8629653
+	srfN = srfAttach,trussPiece3x_4294115846
 	EVENTS
 	{
 	}
@@ -4672,9 +4028,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288816974
+	part = strutConnector_4294112484
 	partName = StrutConnector
-	pos = 0.7438385,25.0724,-1.284109
+	pos = -0.5191582,25.05462,-1.656114
 	rot = 9.901472E-09,0.3826834,-1.287261E-08,-0.9238797
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4683,8 +4039,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_120; pos: -3.608741,-0.4268877,3.60519; dir: -0.7049901,-0.08339524,0.7042969
-	srfN = srfAttach,trussPiece1x_4288821272
+	cData = tgt: fuelTank.long_135; pos: -3.608634,-0.4268762,3.605082; dir: -0.7049901,-0.08339524,0.7042969
+	srfN = srfAttach,trussPiece1x_4294115866
 	EVENTS
 	{
 	}
@@ -4694,9 +4050,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288816918
+	part = strutConnector_4294112428
 	partName = StrutConnector
-	pos = 0.7595249,25.10029,1.142356
+	pos = -0.5034767,25.08252,0.7703534
 	rot = -1.168772E-07,-0.3826835,-4.513786E-08,-0.9238797
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4705,8 +4061,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: fuelTank.long_103; pos: -3.618851,-0.3837149,-3.620687; dir: -0.7049494,-0.07474749,-0.7053078
-	srfN = srfAttach,trussPiece1x_4288821566
+	cData = tgt: fuelTank.long_118; pos: -3.618941,-0.3837244,-3.620777; dir: -0.7049494,-0.07474749,-0.7053078
+	srfN = srfAttach,trussPiece1x_4294116160
 	EVENTS
 	{
 	}
@@ -4716,9 +4072,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288816862
+	part = trussPiece1x_4294112372
 	partName = Part
-	pos = 6.056637,22.83231,-0.06304105
+	pos = 4.793642,22.81453,-0.4350455
 	rot = 0.5000001,0.5000001,-0.5000001,0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4727,9 +4083,11 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = modularwheel.m_4288816660
-	srfN = srfAttach,trussPiece1x_4288820278
-	attN = top,modularwheel.m_4288816660
+	link = modularwheel.m_4294112170
+	link = strutConnector_4294109828
+	link = strutConnector_4294109772
+	srfN = srfAttach,trussPiece1x_4294114872
+	attN = top,modularwheel.m_4294112170
 	EVENTS
 	{
 	}
@@ -4739,9 +4097,9 @@ PART
 }
 PART
 {
-	part = trussPiece1x_4288816842
+	part = trussPiece1x_4294112352
 	partName = Part
-	pos = 4.287974,22.82366,-0.06303807
+	pos = 3.024977,22.80588,-0.4350354
 	rot = -0.5000004,0.5000001,-0.5000002,-0.5000001
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -4750,9 +4108,10 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	link = TTprotowheel.t2_4288816822
-	srfN = srfAttach,trussPiece1x_4288820278
-	attN = top,TTprotowheel.t2_4288816822
+	link = TTprotowheel.t2_4294112332
+	link = strutConnector_4294110332
+	srfN = srfAttach,trussPiece1x_4294114872
+	attN = top,TTprotowheel.t2_4294112332
 	EVENTS
 	{
 	}
@@ -4762,10 +4121,10 @@ PART
 }
 PART
 {
-	part = TTprotowheel.t2_4288816822
+	part = TTprotowheel.t2_4294112332
 	partName = Part
-	pos = 3.103702,22.82366,-0.06302854
-	rot = 6.364338E-07,-0.7071068,-1.466908E-07,0.7071069
+	pos = 1.840705,22.80588,-0.435022
+	rot = -6.040884E-07,-0.7071064,-1.168884E-07,0.7071075
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -4773,9 +4132,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = strutConnector_4288816772
-	link = strutConnector_4288816716
-	attN = front2,trussPiece1x_4288816842
+	link = strutConnector_4294112282
+	link = strutConnector_4294112226
+	attN = front2,trussPiece1x_4294112352
 	EVENTS
 	{
 	}
@@ -4862,10 +4221,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288816772
+	part = strutConnector_4294112282
 	partName = StrutConnector
-	pos = 2.778548,23.26924,-0.2507457
-	rot = -8.179783E-07,0.258819,-1.730299E-06,-0.9659261
+	pos = 1.515535,23.25146,-0.6227419
+	rot = -1.47363E-06,0.2588185,-2.236939E-06,-0.9659262
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4873,8 +4232,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_75; pos: -3.106934,-0.329311,-2.338888; dir: -0.7960775,-0.08437808,-0.5992837
-	srfN = srfAttach,TTprotowheel.t2_4288816822
+	cData = tgt: trussPiece1x_83; pos: -3.106975,-0.3293147,-2.338918; dir: -0.7960775,-0.08437808,-0.5992837
+	srfN = srfAttach,TTprotowheel.t2_4294112332
 	EVENTS
 	{
 	}
@@ -4884,10 +4243,10 @@ PART
 }
 PART
 {
-	part = strutConnector_4288816716
+	part = strutConnector_4294112226
 	partName = StrutConnector
-	pos = 2.785329,23.28689,0.02228067
-	rot = -3.799796E-07,-9.983778E-07,0.7071067,-0.7071073
+	pos = 1.52233,23.26912,-0.3497103
+	rot = 9.462237E-07,-2.026558E-06,0.7071071,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -4895,8 +4254,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: trussPiece1x_28; pos: 0.3273962,-1.549032,3.681437; dir: 0.08169778,-0.3865374,0.9186481
-	srfN = srfAttach,TTprotowheel.t2_4288816822
+	cData = tgt: trussPiece1x_32; pos: 0.3274013,-1.549042,3.681463; dir: 0.08169778,-0.3865374,0.9186481
+	srfN = srfAttach,TTprotowheel.t2_4294112332
 	EVENTS
 	{
 	}
@@ -4906,9 +4265,9 @@ PART
 }
 PART
 {
-	part = modularwheel.m_4288816660
+	part = modularwheel.m_4294112170
 	partName = Part
-	pos = 7.240919,22.83231,-0.06304701
+	pos = 5.977945,22.81453,-0.4350639
 	rot = -4.448924E-09,-0.707107,2.320838E-09,0.7071068
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
@@ -4917,7 +4276,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	attN = front1,trussPiece1x_4288816862
+	attN = front1,trussPiece1x_4294112372
 	EVENTS
 	{
 	}
@@ -5004,9 +4363,9 @@ PART
 }
 PART
 {
-	part = strutConnector_4288816554
+	part = strutConnector_4294112064
 	partName = StrutConnector
-	pos = 5.374447,25.16494,-0.06303724
+	pos = 4.111451,25.14716,-0.4350407
 	rot = -1.293779E-09,1,1.291278E-08,-1.490116E-08
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -5015,8 +4374,8 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	cData = tgt: modularwheel.m_11; pos: -2.131183,-1.968564,0.02902078; dir: -0.7345403,-0.6784913,0.01000215
-	srfN = srfAttach,trussPiece3x_4288821680
+	cData = tgt: modularwheel.m_10; pos: -2.131169,-1.968548,0.02902019; dir: -0.7345403,-0.6784913,0.01000215
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -5026,10 +4385,10 @@ PART
 }
 PART
 {
-	part = MMI.K Miner 01_4288816498
+	part = MMI.K Miner 01_4294112008
 	partName = Part
-	pos = 5.171969,23.04801,0.1366376
-	rot = -2.748148E-08,-0.7071071,7.701255E-08,-0.7071068
+	pos = -4.273479,23.05976,-0.6348971
+	rot = 5.667353E-07,0.707107,1.141412E-06,-0.7071068
 	attRot = 0,0,0,1
 	mir = 1,1,1
 	istg = 0
@@ -5037,7 +4396,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece1x_4288820278
+	srfN = srfAttach,trussPiece1x_4294114852
 	EVENTS
 	{
 	}
@@ -5092,76 +4451,10 @@ PART
 }
 PART
 {
-	part = MMI.K Miner 01_4288816396
+	part = kethane.highGain_4294111906
 	partName = Part
-	pos = -3.010455,23.07754,-0.262889
-	rot = 8.989815E-08,0.707107,2.454433E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,trussPiece1x_4288820258
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = KethaneExtractor
-		isEnabled = True
-		EVENTS
-		{
-			DeployDrill
-			{
-				active = True
-				guiActive = True
-				guiIcon = Deploy Drill
-				guiName = Deploy Drill
-				category = Deploy Drill
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			RetractDrill
-			{
-				active = False
-				guiActive = True
-				guiIcon = Retract Drill
-				guiName = Retract Drill
-				category = Retract Drill
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-			DeployDrillAction
-			{
-				actionGroup = None
-			}
-			RetractDrillAction
-			{
-				actionGroup = None
-			}
-			ToggleDrillAction
-			{
-				actionGroup = None
-			}
-		}
-	}
-}
-PART
-{
-	part = kethane.highGain_4288816294
-	partName = Part
-	pos = 3.062779,25.00751,-0.3293076
-	rot = 0.03084337,0.7064338,-0.706434,0.03084337
+	pos = 1.799782,24.98973,-0.7013113
+	rot = 0.0308431,0.7064338,-0.7064341,0.03084328
 	attRot = 0,-0.6427876,0,0.7660444
 	mir = 1,1,1
 	istg = 0
@@ -5169,7 +4462,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece3x_4288821680
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -5246,10 +4539,10 @@ PART
 }
 PART
 {
-	part = ISA.GPS_4288816246
+	part = ISA.GPS_4294111858
 	partName = ISA_MapSat
-	pos = 3.290291,25.04868,0.3463871
-	rot = 1.631777E-07,0.965926,-1.810694E-07,-0.2588189
+	pos = 2.027294,25.0309,-0.02561638
+	rot = 1.184742E-07,0.965926,-2.406741E-07,-0.2588189
 	attRot = 0,-0.7071068,0,0.7071068
 	mir = 1,1,1
 	istg = 0
@@ -5257,7 +4550,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,trussPiece3x_4288821680
+	srfN = srfAttach,trussPiece3x_4294116274
 	EVENTS
 	{
 	}
@@ -5267,10 +4560,10 @@ PART
 }
 PART
 {
-	part = Mark1Cockpit_4288817370
+	part = Mark1Cockpit_4294111834
 	partName = CommandPod
-	pos = -4.82548,24.02644,-1.272552
-	rot = 0.5000002,-0.5000002,0.5000002,0.5
+	pos = -6.088504,24.00867,-1.644561
+	rot = 0.5000001,-0.5,0.5000004,0.4999999
 	attRot = 0.4999999,-0.4999999,0.4999999,0.4999999
 	mir = 1,1,1
 	istg = 0
@@ -5278,9 +4571,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = telescopicLadder_4288815910
-	link = ladder1_4288815692
-	attN = bottom,fuelTank.long_4288817498
+	link = telescopicLadder_4294111782
+	link = ladder1_4294111564
+	attN = bottom,fuelTank.long_4294112956
 	EVENTS
 	{
 		MakeReference
@@ -5357,10 +4650,10 @@ PART
 }
 PART
 {
-	part = telescopicLadder_4288815910
+	part = telescopicLadder_4294111782
 	partName = Part
-	pos = -5.683737,23.80729,-1.042586
-	rot = 0.02022894,0.4250835,-0.0504025,0.9035238
+	pos = -6.94678,23.78951,-1.414594
+	rot = 0.02022879,0.4250842,-0.05040291,0.9035233
 	attRot = -0.3953924,0.2474546,-0.3009721,0.8317737
 	mir = 1,1,1
 	istg = 0
@@ -5368,7 +4661,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark1Cockpit_4288817370
+	srfN = srfAttach,Mark1Cockpit_4294111834
 	EVENTS
 	{
 	}
@@ -5424,10 +4717,10 @@ PART
 }
 PART
 {
-	part = ladder1_4288815692
+	part = ladder1_4294111564
 	partName = Strut
-	pos = -5.802979,24.06776,-1.010635
-	rot = 0.02670611,0.4658196,-0.1488048,0.8718696
+	pos = -7.066018,24.04999,-1.382641
+	rot = 0.02670509,0.4658209,-0.1488053,0.8718688
 	attRot = -0.08189961,0.3407187,0.02980902,0.9361169
 	mir = 1,1,1
 	istg = 0
@@ -5435,7 +4728,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark1Cockpit_4288817370
+	srfN = srfAttach,Mark1Cockpit_4294111834
 	EVENTS
 	{
 	}
@@ -5445,9 +4738,9 @@ PART
 }
 PART
 {
-	part = Mark1Cockpit_4288809700
+	part = Mark1Cockpit_4294111522
 	partName = CommandPod
-	pos = -4.825478,24.0975,1.146634
+	pos = -6.088492,24.07972,0.7746321
 	rot = 0.5,-0.5000001,0.5000001,0.5000001
 	attRot = 0.4999999,-0.4999999,0.4999999,0.4999999
 	mir = 1,1,1
@@ -5456,9 +4749,9 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = telescopicLadder_4288809644
-	link = ladder1_4288809422
-	attN = bottom,fuelTank.long_4288817466
+	link = telescopicLadder_4294111470
+	link = ladder1_4294111252
+	attN = bottom,fuelTank.long_4294112924
 	EVENTS
 	{
 		MakeReference
@@ -5535,10 +4828,10 @@ PART
 }
 PART
 {
-	part = telescopicLadder_4288809644
+	part = telescopicLadder_4294111470
 	partName = Part
-	pos = -5.683734,23.87835,1.376601
-	rot = 0.02022893,0.4250835,-0.05040265,0.9035235
+	pos = -6.946758,23.86057,1.0046
+	rot = 0.02022899,0.4250835,-0.05040263,0.9035236
 	attRot = -0.3953924,0.2474546,-0.3009721,0.8317737
 	mir = 1,1,1
 	istg = 0
@@ -5546,7 +4839,7 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark1Cockpit_4288809700
+	srfN = srfAttach,Mark1Cockpit_4294111522
 	EVENTS
 	{
 	}
@@ -5602,10 +4895,10 @@ PART
 }
 PART
 {
-	part = ladder1_4288809422
+	part = ladder1_4294111252
 	partName = Strut
-	pos = -5.802976,24.13882,1.408551
-	rot = 0.02670604,0.4658196,-0.148805,0.8718694
+	pos = -7.065989,24.12105,1.036552
+	rot = 0.0267061,0.4658195,-0.1488051,0.8718694
 	attRot = -0.08189961,0.3407187,0.02980902,0.9361169
 	mir = 1,1,1
 	istg = 0
@@ -5613,7 +4906,1061 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 1
-	srfN = srfAttach,Mark1Cockpit_4288809700
+	srfN = srfAttach,Mark1Cockpit_4294111522
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294111210
+	partName = Part
+	pos = -1.067945,22.8105,-4.52636
+	rot = -0.7071071,0.7071069,3.72529E-08,-4.470348E-08
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = trussPiece1x_4294111190
+	srfN = srfAttach,trussPiece1x_4294114892
+	attN = top,trussPiece1x_4294111190
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294111190
+	partName = Part
+	pos = -2.186497,22.8105,-4.526373
+	rot = 0.5000001,-0.5000007,0.5000005,0.4999993
+	attRot = 0.4999999,-0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = modularwheel.ms_4294111170
+	link = strutConnector_4294110220
+	srfN = srfAttach,trussPiece1x_4294114892
+	attN = bottom,trussPiece1x_4294111210
+	attN = top,modularwheel.ms_4294111170
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = modularwheel.ms_4294111170
+	partName = Part
+	pos = -3.370803,22.81049,-4.526386
+	rot = -7.585533E-07,0.7071036,3.697619E-07,-0.7071104
+	attRot = 0,-0.7071068,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294109940
+	attN = front2,trussPiece1x_4294111190
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece1x_4294111080
+	partName = Part
+	pos = 0.7025718,22.79752,-4.526356
+	rot = -7.450581E-08,1.41561E-07,-0.7071068,0.7071072
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = trussPiece1x_4294111060
+	srfN = srfAttach,trussPiece1x_4294114892
+	attN = top,trussPiece1x_4294111060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294111060
+	partName = Part
+	pos = 1.821125,22.79752,-4.526346
+	rot = 0.5000004,0.5000002,-0.4999996,0.5000005
+	attRot = 0.4999999,0.4999999,-0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = modularwheel.m_4294111040
+	link = strutConnector_4294110388
+	link = strutConnector_4294109996
+	link = strutConnector_4294109660
+	srfN = srfAttach,trussPiece1x_4294114892
+	attN = bottom,trussPiece1x_4294111080
+	attN = top,modularwheel.m_4294111040
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = modularwheel.m_4294111040
+	partName = Part
+	pos = 3.005422,22.79752,-4.526351
+	rot = -5.229467E-07,-0.7071045,-9.956107E-07,0.7071093
+	attRot = 0,-0.7071068,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = front1,trussPiece1x_4294111060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece1x_4294110934
+	partName = Part
+	pos = -1.066138,22.82452,3.65632
+	rot = -0.7071072,0.7071069,-3.72529E-08,3.501773E-07
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = trussPiece1x_4294110914
+	link = strutConnector_4294110164
+	srfN = srfAttach,trussPiece1x_4294114912
+	attN = top,trussPiece1x_4294110914
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294110914
+	partName = Part
+	pos = -2.184697,22.82452,3.656313
+	rot = 0.5000005,-0.5000004,0.5000005,0.4999994
+	attRot = 0.4999999,-0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = modularwheel.ms_4294110894
+	link = strutConnector_4294110276
+	srfN = srfAttach,trussPiece1x_4294114912
+	attN = bottom,trussPiece1x_4294110934
+	attN = top,modularwheel.ms_4294110894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = modularwheel.ms_4294110894
+	partName = Part
+	pos = -3.369012,22.82452,3.6563
+	rot = 2.146258E-06,0.7071073,1.845423E-06,-0.7071069
+	attRot = 0,-0.7071068,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294109884
+	attN = front2,trussPiece1x_4294110914
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece1x_4294110804
+	partName = Part
+	pos = 0.7043344,22.82757,3.656324
+	rot = 7.003546E-07,4.246831E-07,-0.7071068,0.7071072
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	link = trussPiece1x_4294110784
+	link = strutConnector_4294110108
+	link = strutConnector_4294109604
+	srfN = srfAttach,trussPiece1x_4294114912
+	attN = top,trussPiece1x_4294110784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294110784
+	partName = Part
+	pos = 1.822891,22.82757,3.656334
+	rot = -1.266599E-07,-2.458692E-07,-0.7071068,0.7071071
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294110764
+	link = modularwheel.m_4294110708
+	link = strutConnector_4294110052
+	srfN = srfAttach,trussPiece1x_4294114912
+	attN = bottom,trussPiece1x_4294110804
+	attN = top,modularwheel.m_4294110708
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110764
+	partName = StrutConnector
+	pos = 2.176874,22.84805,3.302329
+	rot = -6.113819E-07,0.9238799,1.764818E-07,-0.3826829
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_9; pos: -4.450803,-0.07252009,0.3756328; dir: -0.996326,-0.01623386,0.08408841
+	srfN = srfAttach,trussPiece1x_4294110784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = modularwheel.m_4294110708
+	partName = Part
+	pos = 3.007189,22.82757,3.65635
+	rot = 1.495028E-07,0.7071078,-3.301464E-07,-0.7071062
+	attRot = 0,0.7071067,0,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 0
+	attN = front1,trussPiece1x_4294110784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = ModuleCleverLegacyCart
+		isEnabled = True
+		EVENTS
+		{
+			ToggleSteeringEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Steering
+				guiName = Enable Steering
+				category = Enable Steering
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleMotorEnabled
+			{
+				active = True
+				guiActive = True
+				guiIcon = Enable Motor
+				guiName = Enable Motor
+				category = Enable Motor
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleHandbrake
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Handbrake On
+				guiName = Turn Handbrake On
+				category = Turn Handbrake On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleCruiseControl
+			{
+				active = True
+				guiActive = True
+				guiIcon = Cruise Control
+				guiName = Cruise Control
+				category = Cruise Control
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleLights
+			{
+				active = True
+				guiActive = True
+				guiIcon = Turn Lights On
+				guiName = Turn Lights On
+				category = Turn Lights On
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			ToggleWheelsDeployed
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Wheels
+				guiName = Deploy Wheels
+				category = Deploy Wheels
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4294110602
+	partName = StrutConnector
+	pos = 3.908986,22.70383,-0.7613951
+	rot = 7.367997E-10,0.7071068,-2.320837E-09,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_87; pos: -3.440412,0.07657521,6.198192; dir: -0.4852879,0.01080147,0.8742877
+	srfN = srfAttach,trussPiece1x_4294114872
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110546
+	partName = StrutConnector
+	pos = 3.610504,23.3499,-0.1365688
+	rot = -3.352761E-07,-0.2148837,0.5263538,-0.8226649
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_34; pos: -2.765043,-5.561481,1.382443; dir: -0.434555,-0.8740468,0.2172653
+	srfN = srfAttach,trussPiece1x_4294114872
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = MMI.K Miner 01_4294110490
+	partName = Part
+	pos = 3.908974,23.1655,-0.2353441
+	rot = -0.01542527,0.7069388,-0.01542528,0.7069386
+	attRot = 0.1736482,0,0,0.9848078
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	srfN = srfAttach,trussPiece1x_4294114872
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	MODULE
+	{
+		name = KethaneExtractor
+		isEnabled = True
+		EVENTS
+		{
+			DeployDrill
+			{
+				active = True
+				guiActive = True
+				guiIcon = Deploy Drill
+				guiName = Deploy Drill
+				category = Deploy Drill
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+			RetractDrill
+			{
+				active = False
+				guiActive = True
+				guiIcon = Retract Drill
+				guiName = Retract Drill
+				category = Retract Drill
+				guiActiveUnfocused = False
+				unfocusedRange = 2
+				externalToEVAOnly = True
+			}
+		}
+		ACTIONS
+		{
+			DeployDrillAction
+			{
+				actionGroup = None
+			}
+			RetractDrillAction
+			{
+				actionGroup = None
+			}
+			ToggleDrillAction
+			{
+				actionGroup = None
+			}
+		}
+	}
+}
+PART
+{
+	part = strutConnector_4294110388
+	partName = StrutConnector
+	pos = 2.163731,22.81006,-4.183743
+	rot = 1.06179E-06,0.9238803,4.378701E-07,0.3826824
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_9; pos: -4.430907,0.01379999,-0.411556; dir: -0.9957091,0.003101276,-0.09248578
+	srfN = srfAttach,trussPiece1x_4294111060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110332
+	partName = StrutConnector
+	pos = 3.224232,22.79532,-0.0899162
+	rot = -3.001379E-07,0.8660262,-8.303149E-08,0.4999992
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_32; pos: -1.286585,0.08533271,-4.614903; dir: -0.268505,0.01780938,-0.9631136
+	srfN = srfAttach,trussPiece1x_4294112352
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110276
+	partName = StrutConnector
+	pos = -2.380887,22.85926,3.316501
+	rot = 8.057378E-07,0.4999993,-5.981612E-07,-0.8660262
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_65; pos: -3.359017,-0.002086017,-1.035959; dir: -0.9555852,-0.0005932549,-0.2947144
+	srfN = srfAttach,trussPiece1x_4294110914
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110220
+	partName = StrutConnector
+	pos = -2.374238,22.78646,-4.201194
+	rot = -0.1587943,-0.4908816,-0.09508324,-0.8513398
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_65; pos: -3.160866,1.199658,0.9810898; dir: -0.8978865,0.3407798,0.2786915
+	srfN = srfAttach,trussPiece1x_4294111190
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110164
+	partName = StrutConnector
+	pos = -0.9812505,22.72501,3.33951
+	rot = -1.609141E-06,0.7933544,1.466466E-07,-0.6087608
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_91; pos: -7.641845,0.01689276,0.6176262; dir: -0.9967474,0.002202846,0.08055972
+	srfN = srfAttach,trussPiece1x_4294110934
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110108
+	partName = StrutConnector
+	pos = 0.7043334,22.82025,3.331747
+	rot = -2.931117E-08,0.7071071,-1.811348E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_86; pos: -7.533542,-0.00500514,1.656334; dir: -0.9766727,-0.0006488785,0.2147324
+	srfN = srfAttach,trussPiece1x_4294110804
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294110052
+	partName = StrutConnector
+	pos = 2.295569,22.98139,3.383432
+	rot = -9.09706E-07,0.9659259,-5.088949E-07,-0.2588199
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_13; pos: -2.083961,-0.2047342,2.831232; dir: -0.5917881,-0.05813848,0.8039943
+	srfN = srfAttach,trussPiece1x_4294110784
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109996
+	partName = StrutConnector
+	pos = 2.29957,23.11999,-4.398151
+	rot = 0.7071071,-0.7071069,-1.050532E-06,1.236796E-06
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: trussPiece1x_13; pos: 0.2953263,-0.3907551,-3.638551; dir: 0.08044045,-0.1064322,-0.9910609
+	srfN = srfAttach,trussPiece1x_4294111060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109940
+	partName = StrutConnector
+	pos = -3.090494,23.09258,-4.364554
+	rot = 2.135806E-06,0.9659258,-9.903534E-07,0.2588195
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: modularwheel.ms_62; pos: 0.8947576,0.1567242,-4.889776; dir: 0.1799065,0.0315123,-0.9831789
+	srfN = srfAttach,modularwheel.ms_4294111170
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109884
+	partName = StrutConnector
+	pos = -3.331566,23.2785,3.516541
+	rot = 0.2912179,-0.5668574,-0.5509151,0.5388489
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: modularwheel.ms_62; pos: -0.2265397,-4.431649,2.211299; dir: -0.04569248,-0.8938584,0.4460149
+	srfN = srfAttach,modularwheel.ms_4294110894
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109828
+	partName = StrutConnector
+	pos = 4.998139,22.97682,-0.7892333
+	rot = 1.935889E-07,0.8660256,-1.215782E-07,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank.long_139; pos: -0.3363527,0.5158125,0.4393864; dir: -0.4446209,0.6818651,0.5808374
+	srfN = srfAttach,trussPiece1x_4294112372
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109772
+	partName = StrutConnector
+	pos = 5.112,22.99208,-0.1166913
+	rot = -9.258283E-07,0.9238803,-1.205512E-07,0.3826827
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank.long_122; pos: -0.3410901,0.5673887,-0.442771; dir: -0.4282633,0.712405,-0.5559403
+	srfN = srfAttach,trussPiece1x_4294112372
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109716
+	partName = StrutConnector
+	pos = -4.288054,24.90929,-0.7531327
+	rot = 2.402211E-07,0.1305262,9.074287E-07,-0.9914451
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank.long_135; pos: -0.2982044,-0.3470633,-0.5537603; dir: -0.4151221,-0.4831363,-0.7708781
+	srfN = srfAttach,trussPiece3x_4294116006
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109660
+	partName = StrutConnector
+	pos = 1.628821,22.79252,-4.193265
+	rot = -7.53873E-07,-0.5000005,-1.636452E-06,-0.8660255
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: modularwheel.ms_62; pos: -7.089296,0.4425794,-5.047029; dir: -0.8135912,0.05079131,-0.5792146
+	srfN = srfAttach,trussPiece1x_4294111060
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+}
+PART
+{
+	part = strutConnector_4294109604
+	partName = StrutConnector
+	pos = 0.9054236,22.80757,3.308033
+	rot = 2.233912E-07,0.8660258,-3.217121E-08,-0.5000002
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	attm = 1
+	cData = tgt: modularwheel.ms_62; pos: 0.490253,0.3115411,8.050809; dir: 0.06073743,0.03859641,0.9974073
+	srfN = srfAttach,trussPiece1x_4294110804
 	EVENTS
 	{
 	}
