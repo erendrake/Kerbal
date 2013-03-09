@@ -58,17 +58,17 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.18.4
-		UT = 30943.2271387243
-		activeVessel = 0
+		UT = 34.7399999999998
+		activeVessel = -1
 		CREW
 		{
 			name = Jebediah Kerman
 			brave = 0.5
 			dumb = 0.5
 			badS = True
-			state = 3
-			ToD = 32937.1471387242
-			idx = 0
+			state = 0
+			ToD = 0
+			idx = -1
 		}
 		CREW
 		{
@@ -76,9 +76,9 @@ GAME
 			brave = 0.5
 			dumb = 0.8
 			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 1
+			state = 0
+			ToD = 0
+			idx = -1
 		}
 		CREW
 		{
@@ -86,108 +86,28 @@ GAME
 			brave = 0.3
 			dumb = 0.1
 			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 0
-		}
-		CREW
-		{
-			name = Willong Kerman
-			brave = 0.0454303
-			dumb = 0.6403826
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 1
-		}
-		CREW
-		{
-			name = Rayney Kerman
-			brave = 0.2862236
-			dumb = 0.425662
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 2
-		}
-		CREW
-		{
-			name = Doodger Kerman
-			brave = 0.7982271
-			dumb = 0.8351465
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 0
-		}
-		CREW
-		{
-			name = Donberry Kerman
-			brave = 0.7339214
-			dumb = 0.06575406
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 1
-		}
-		CREW
-		{
-			name = Joeburry Kerman
-			brave = 0.09999108
-			dumb = 0.803339
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 2
-		}
-		CREW
-		{
-			name = Thompdred Kerman
-			brave = 0.5815174
-			dumb = 0.5393166
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 0
-		}
-		CREW
-		{
-			name = Jonbin Kerman
-			brave = 0.4198259
-			dumb = 0.4171239
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 1
-		}
-		CREW
-		{
-			name = Cambo Kerman
-			brave = 0.1641625
-			dumb = 0.60219
-			badS = False
-			state = 3
-			ToD = 32937.1471387242
-			idx = 2
+			state = 0
+			ToD = 0
+			idx = -1
 		}
 		VESSEL
 		{
-			pid = 9a72552c0f1044fc9344a2c21515402f
-			name = Gilligan Debris
+			pid = 9e07455249964f5db9e41a0981be7476
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.102319268437601
-			lon = -74.5753216769769
-			alt = 83.7708443633746
-			hgt = 15.45107
-			nrm = -2.855429E-06,1,1.851813E-06
-			rot = 0.4347279,0.6527299,-0.5584405,-0.2703694
+			lat = -0.102370903169514
+			lon = -74.5750819029781
+			alt = 78.1242997330846
+			hgt = 9.80337
+			nrm = -1.927085E-06,1,1.654819E-06
+			rot = 0.4347281,0.6527297,-0.5584408,-0.270369
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -198,32 +118,32 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300041.893565289
-				ECC = 1
-				INC = NaN
-				LPE = 105.424653672962
-				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 30933.5871387241
+				SMA = 300817.772990962
+				ECC = 0.994822707227727
+				INC = 0.102370903155643
+				LPE = 90
+				LAN = 106.003918097019
+				MNA = 3.1415918271444
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 4120659719
+				uid = 3586869348
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1.000001
 				mirror = 1,1,1
 				istg = 7
-				dstg = 4
+				dstg = 2
 				sqor = 7
 				sidx = 2
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.36073
+				temp = 19.0164
 				expt = 0.1
 				state = 1
 				connected = False
@@ -238,8 +158,8 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 6.385241
-					height = 16.11122
+					scaleFactor = 4.146929
+					height = 10.46352
 					towerRot = 0,0,0,1
 					EVENTS
 					{
@@ -334,22 +254,22 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 0c5c67388bfe4d5b9a89291bf4773a5c
-			name = Gilligan Debris
+			pid = 8f8d2c257eba4441a1975ffbbb41b06d
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.102601647687699
-			lon = -74.5756569193984
-			alt = 82.9152457988821
-			hgt = 14.59671
-			nrm = 2.53795E-07,1,2.29838E-07
-			rot = 0.26626,-0.560511,0.6557068,-0.4300951
+			lat = -0.102653282924591
+			lon = -74.5754171453472
+			alt = 77.2686736298492
+			hgt = 8.948997
+			nrm = 1.607431E-07,1,3.197816E-07
+			rot = 0.2662601,-0.5605109,0.6557067,-0.4300952
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -360,32 +280,32 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = NaN
-				LPE = 105.424318299012
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
+				SMA = 300817.340714209
+				ECC = 0.994822729465249
+				INC = 0.102653282928119
+				LPE = 90
+				LAN = 106.003582854653
+				MNA = 3.14159182714439
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 463399835
+				uid = 600120033
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1.000001
 				mirror = 1,1,1
 				istg = 7
-				dstg = 4
+				dstg = 2
 				sqor = 7
 				sidx = 4
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.36733
+				temp = 19.02331
 				expt = 0.1
 				state = 1
 				connected = False
@@ -400,8 +320,8 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 6.046636
-					height = 15.25686
+					scaleFactor = 3.808321
+					height = 9.609144
 					towerRot = 0,0,0,1
 					EVENTS
 					{
@@ -496,22 +416,22 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 54e0eb9680d1495a854c9da913fa460d
-			name = Gilligan Debris
+			pid = c4f982f093e5460bad43c35b77d2fb29
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.10289989705641
-			lon = -74.5750317895451
-			alt = 82.8842673796462
-			hgt = 14.56255
-			nrm = -3.983139E-07,0.9999999,3.499143E-07
-			rot = 0.2753806,0.7004643,-0.6519288,-0.09221825
+			lat = -0.102951536100586
+			lon = -74.574792010728
+			alt = 77.2377182155615
+			hgt = 8.914831
+			nrm = -4.390209E-07,1,-1.678701E-07
+			rot = 0.2753806,0.7004641,-0.651929,-0.09221838
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -522,32 +442,194 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 105.424943599231
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
+				SMA = 300817.325060706
+				ECC = 0.994822730363191
+				INC = 0.10295153610555
+				LPE = 90
+				LAN = 106.00420798932
+				MNA = 3.14159265358979
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 750413717
+				uid = 4256751429
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1.000001
 				mirror = 1,1,1
 				istg = 7
-				dstg = 4
+				dstg = 2
+				sqor = 7
+				sidx = 11
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.02363
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					scaleFactor = 3.79478
+					height = 9.574978
+					towerRot = 0,0,0,1
+					EVENTS
+					{
+						Release
+						{
+							active = True
+							guiActive = True
+							guiIcon = Release Clamp
+							guiName = Release Clamp
+							category = Release Clamp
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ReleaseClamp
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = f24aca0a9ff6440dac47f9421f75e4d0
+			name = Coconut Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 19.7000000000001
+			lct = 15.0399999999998
+			root = 0
+			lat = -0.103116892251254
+			lon = -74.5749600267156
+			alt = 87.021344255656
+			hgt = 18.69906
+			nrm = -1.969551E-08,-2.522285E-07,1
+			rot = -0.6982028,0.7032502,-0.09500385,0.09447924
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 300822.267749308
+				ECC = 0.994822477183069
+				INC = 0.103116892232087
+				LPE = 89.9999999999999
+				LAN = 106.004039973273
+				MNA = 3.14159265358979
+				EPH = 34.7399999999998
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 1789968392
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 7
+				dstg = 0
 				sqor = 7
 				sidx = 12
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.36754
+				temp = 18.95828
 				expt = 0.1
 				state = 1
 				connected = False
@@ -562,9 +644,9 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 6.033099
-					height = 15.2227
-					towerRot = 0,0,0,1
+					scaleFactor = 6.795827
+					height = 17.14721
+					towerRot = 0.7071069,0,0,0.7071068
 					EVENTS
 					{
 						Release
@@ -658,184 +740,22 @@ GAME
 		}
 		VESSEL
 		{
-			pid = b1460cb938fd4bc79cd587bad00ea391
-			name = Gilligan Debris
+			pid = e657f8c378bc41618e273f74b707f00d
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.3000000005522
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.103065253313749
-			lon = -74.5751997998559
-			alt = 92.6678849412128
-			hgt = 24.34677
-			nrm = -2.428613E-08,-2.396322E-07,1
-			rot = -0.698203,0.7032501,-0.09500389,0.09447923
-			CoM = 4.216361E-10,5.065046E-07,1.838867E-06
-			stg = 0
-			prst = False
-			eva = False
-			ref = 0
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = 300046.32478921
-				ECC = 1
-				INC = NaN
-				LPE = 105.424776152621
-				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 30933.5871387241
-				REF = 1
-				OBJ = 1
-			}
-			PART
-			{
-				name = launchClamp1
-				uid = 826697017
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 7
-				dstg = 2
-				sqor = 7
-				sidx = 13
-				attm = 1
-				srfN = None, -1
-				mass = 0.1
-				temp = 19.30091
-				expt = 0.1
-				state = 1
-				connected = False
-				attached = False
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = LaunchClamp
-					isEnabled = True
-					scaleFactor = 9.034141
-					height = 22.79491
-					towerRot = 0.7071069,3.192034E-08,3.192028E-08,0.7071068
-					EVENTS
-					{
-						Release
-						{
-							active = True
-							guiActive = True
-							guiIcon = Release Clamp
-							guiName = Release Clamp
-							category = Release Clamp
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ReleaseClamp
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = True
-					throttle = 0
-					EVENTS
-					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Generator
-							guiName = Activate Generator
-							category = Activate Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiIcon = Shutdown Generator
-							guiName = Shutdown Generator
-							category = Shutdown Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 0
-				Gear = True, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-		}
-		VESSEL
-		{
-			pid = 93ccc786aee1406198e236dad89921d5
-			name = Gilligan Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			landedAt = LaunchPad
-			splashed = False
-			met = 25.3000000005522
-			lct = 16003.8305371461
-			root = 0
-			lat = -0.103061150732351
-			lon = -74.5757880754059
-			alt = 92.6652046996169
-			hgt = 24.34677
-			nrm = -2.216913E-07,8.433327E-08,1
-			rot = 0.7032501,0.6982029,0.09447936,0.09500386
+			lat = -0.103112789681452
+			lon = -74.5755483057685
+			alt = 87.0186381296953
+			hgt = 18.69906
+			nrm = -3.052188E-07,5.896605E-08,1
+			rot = 0.7032502,0.6982028,0.0944794,0.09500382
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -846,32 +766,32 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 300046.348516231
-				ECC = 1
-				INC = NaN
-				LPE = 105.424186818932
-				LAN = 0
+				SMA = 300822.266382451
+				ECC = 0.994822477251776
+				INC = 0.103112789661765
+				LPE = 90
+				LAN = 106.003451694249
 				MNA = 3.14159265358979
-				EPH = 30933.5871387241
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 808696876
+				uid = 2110850780
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = 7
-				dstg = 2
+				dstg = 0
 				sqor = 7
-				sidx = 18
+				sidx = 16
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.30081
+				temp = 18.95816
 				expt = 0.1
 				state = 1
 				connected = False
@@ -886,9 +806,9 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 9.034141
-					height = 22.79491
-					towerRot = 0.7071069,3.192032E-08,3.19203E-08,0.7071068
+					scaleFactor = 6.795827
+					height = 17.14721
+					towerRot = 0.7071069,0,0,0.7071068
 					EVENTS
 					{
 						Release
@@ -982,184 +902,22 @@ GAME
 		}
 		VESSEL
 		{
-			pid = f8e9c1824e0e4494a7a2c3edb8f9af2d
-			name = Gilligan Debris
+			pid = 28be55593db046a491261a04dd70fa98
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.102558331246243
-			lon = -74.5748444395004
-			alt = 83.835191449034
-			hgt = 15.51297
-			nrm = 4.598847E-07,1,-9.932011E-07
-			rot = 0.5039012,0.6118535,-0.4969203,-0.353255
-			CoM = 6.534276E-08,9.194337E-07,2.44677E-07
-			stg = 0
-			prst = False
-			eva = False
-			ref = 0
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 105.425129830812
-				LAN = 0
-				MNA = 0
-				EPH = 30933.5871387241
-				REF = 1
-				OBJ = 1
-			}
-			PART
-			{
-				name = launchClamp1
-				uid = 1945287399
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.000001
-				mirror = 1,1,1
-				istg = 7
-				dstg = 4
-				sqor = 7
-				sidx = 24
-				attm = 1
-				srfN = None, -1
-				mass = 0.1
-				temp = 19.36024
-				expt = 0.1
-				state = 1
-				connected = False
-				attached = False
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = LaunchClamp
-					isEnabled = True
-					scaleFactor = 6.409771
-					height = 16.17312
-					towerRot = 0,0,0,1
-					EVENTS
-					{
-						Release
-						{
-							active = True
-							guiActive = True
-							guiIcon = Release Clamp
-							guiName = Release Clamp
-							category = Release Clamp
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ReleaseClamp
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = True
-					throttle = 0
-					EVENTS
-					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Generator
-							guiName = Activate Generator
-							category = Activate Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiIcon = Shutdown Generator
-							guiName = Shutdown Generator
-							category = Shutdown Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 0
-				Gear = True, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-		}
-		VESSEL
-		{
-			pid = d44de9e1ce9541fc9f1679f4016b0e88
-			name = Gilligan Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			landedAt = LaunchPad
-			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
-			root = 0
-			lat = -0.102620330615448
-			lon = -74.5752819008343
-			alt = 82.8615004534367
-			hgt = 14.54124
-			nrm = 7.473599E-07,1,8.525941E-07
-			rot = -0.004936955,-0.6824353,0.7076871,-0.1828573
+			lat = -0.102671968355305
+			lon = -74.5750421242686
+			alt = 77.2149251274532
+			hgt = 8.893504
+			nrm = 1.728524E-07,1,7.157695E-07
+			rot = -0.004936964,-0.6824353,0.7076872,-0.1828569
 			CoM = 0,0,0
 			stg = 0
 			prst = False
@@ -1170,32 +928,32 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 105.424693300638
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
+				SMA = 300817.313559247
+				ECC = 0.994822730862487
+				INC = 0.102671968356215
+				LPE = 90
+				LAN = 106.003957875739
+				MNA = 3.14159265358979
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 1205323154
+				uid = 339866399
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1.000001
 				mirror = 1,1,1
 				istg = 7
-				dstg = 4
+				dstg = 2
 				sqor = 7
-				sidx = 26
+				sidx = 22
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.36782
+				temp = 19.02369
 				expt = 0.1
 				state = 1
 				connected = False
@@ -1210,8 +968,8 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 6.024652
-					height = 15.20139
+					scaleFactor = 3.78633
+					height = 9.553654
 					towerRot = 0,0,0,1
 					EVENTS
 					{
@@ -1306,23 +1064,23 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 05bb3ee67c6e4c7e9af2ce244ec8c61c
-			name = Gilligan Debris
+			pid = 830123c7711b4b59bade0a6363794896
+			name = Coconut Debris
 			type = Debris
 			sit = LANDED
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
+			met = 19.7000000000001
+			lct = 15.0399999999998
 			root = 0
-			lat = -0.103275852444782
-			lon = -74.5750499839151
-			alt = 82.8722753927577
-			hgt = 14.63113
-			nrm = 6.31254E-08,1,-1.636228E-07
-			rot = 0.5039006,0.6118543,-0.4969204,-0.3532543
-			CoM = -4.614382E-07,8.065513E-10,1.201991E-07
+			lat = -0.102483862007368
+			lon = -74.5756128677364
+			alt = 78.2973952831235
+			hgt = 9.978783
+			nrm = -2.580899E-06,1,7.580281E-07
+			rot = 0.2753811,0.7004645,-0.6519281,-0.09222023
+			CoM = 6.032364E-08,-2.014549E-10,-1.028196E-07
 			stg = 0
 			prst = False
 			eva = False
@@ -1332,32 +1090,194 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 105.424924567787
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
+				SMA = 300817.860433497
+				ECC = 0.99482270278397
+				INC = 0.102483861995192
+				LPE = 89.9999999999999
+				LAN = 106.003387132253
+				MNA = 3.14159265358979
+				EPH = 34.7399999999998
 				REF = 1
 				OBJ = 1
 			}
 			PART
 			{
 				name = launchClamp1
-				uid = 1845262932
+				uid = 163163627
 				parent = 0
 				position = 0,0,0
-				rotation = 0,0,0,1
+				rotation = 0,0,0,1.000001
 				mirror = 1,1,1
 				istg = 7
-				dstg = 4
+				dstg = 2
+				sqor = 7
+				sidx = 28
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 19.01576
+				expt = 0.1
+				state = 1
+				connected = False
+				attached = False
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				MODULE
+				{
+					name = LaunchClamp
+					isEnabled = True
+					scaleFactor = 4.216448
+					height = 10.63893
+					towerRot = 0,0,0,1
+					EVENTS
+					{
+						Release
+						{
+							active = True
+							guiActive = True
+							guiIcon = Release Clamp
+							guiName = Release Clamp
+							category = Release Clamp
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ReleaseClamp
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleGenerator
+					isEnabled = True
+					generatorIsActive = True
+					throttle = 0
+					EVENTS
+					{
+						Activate
+						{
+							active = False
+							guiActive = True
+							guiIcon = Activate Generator
+							guiName = Activate Generator
+							category = Activate Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						Shutdown
+						{
+							active = False
+							guiActive = True
+							guiIcon = Shutdown Generator
+							guiName = Shutdown Generator
+							category = Shutdown Generator
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+						ActivateAction
+						{
+							actionGroup = None
+						}
+						ShutdownAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 0
+				Gear = True, 0
+				Light = False, 0
+				RCS = False, 0
+				SAS = False, 0
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+		}
+		VESSEL
+		{
+			pid = 1d079028fcf841c9a6d84e25640596a2
+			name = Coconut Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 19.7000000000001
+			lct = 15.0399999999998
+			root = 0
+			lat = -0.102902414645069
+			lon = -74.5756972904206
+			alt = 77.2212134147994
+			hgt = 8.902541
+			nrm = -1.543622E-06,1,-1.571907E-06
+			rot = -0.4969202,0.3532534,-0.5039015,0.6118543
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ref = 0
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 300817.316725097
+				ECC = 0.994822730774426
+				INC = 0.102902414652898
+				LPE = 89.9999999999999
+				LAN = 106.003302709571
+				MNA = 3.14159265358979
+				EPH = 34.7399999999998
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = launchClamp1
+				uid = 3446043237
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1.000001
+				mirror = 1,1,1
+				istg = 7
+				dstg = 2
 				sqor = 7
 				sidx = 30
 				attm = 1
 				srfN = None, -1
 				mass = 0.1
-				temp = 19.36781
+				temp = 19.02366
 				expt = 0.1
 				state = 1
 				connected = False
@@ -1372,332 +1292,8 @@ GAME
 				{
 					name = LaunchClamp
 					isEnabled = True
-					scaleFactor = 6.028215
-					height = 15.21038
-					towerRot = 0,0,0,1
-					EVENTS
-					{
-						Release
-						{
-							active = True
-							guiActive = True
-							guiIcon = Release Clamp
-							guiName = Release Clamp
-							category = Release Clamp
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ReleaseClamp
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = True
-					throttle = 0
-					EVENTS
-					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Generator
-							guiName = Activate Generator
-							category = Activate Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiIcon = Shutdown Generator
-							guiName = Shutdown Generator
-							category = Shutdown Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 0
-				Gear = True, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-		}
-		VESSEL
-		{
-			pid = 3f1df7d2021b4eda9c15e36289737d59
-			name = Gilligan Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			landedAt = LaunchPad
-			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
-			root = 0
-			lat = -0.102432225080543
-			lon = -74.5758526431625
-			alt = 83.9439898335841
-			hgt = 15.62651
-			nrm = -1.794996E-06,1,1.214666E-06
-			rot = 0.2753809,0.7004647,-0.6519281,-0.09221943
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			eva = False
-			ref = 0
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = 0
-				ECC = 1
-				INC = NaN
-				LPE = 105.424123385452
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
-				REF = 1
-				OBJ = 1
-			}
-			PART
-			{
-				name = launchClamp1
-				uid = 3127599713
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.000001
-				mirror = 1,1,1
-				istg = 7
-				dstg = 4
-				sqor = 7
-				sidx = 32
-				attm = 1
-				srfN = None, -1
-				mass = 0.1
-				temp = 19.35963
-				expt = 0.1
-				state = 1
-				connected = False
-				attached = False
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = LaunchClamp
-					isEnabled = True
-					scaleFactor = 6.454778
-					height = 16.28667
-					towerRot = 0,0,0,1
-					EVENTS
-					{
-						Release
-						{
-							active = True
-							guiActive = True
-							guiIcon = Release Clamp
-							guiName = Release Clamp
-							category = Release Clamp
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ReleaseClamp
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleGenerator
-					isEnabled = True
-					generatorIsActive = True
-					throttle = 0
-					EVENTS
-					{
-						Activate
-						{
-							active = False
-							guiActive = True
-							guiIcon = Activate Generator
-							guiName = Activate Generator
-							category = Activate Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiIcon = Shutdown Generator
-							guiName = Shutdown Generator
-							category = Shutdown Generator
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			ACTIONGROUPS
-			{
-				Stage = False, 0
-				Gear = True, 0
-				Light = False, 0
-				RCS = False, 0
-				SAS = False, 0
-				Brakes = False, 0
-				Abort = False, 0
-				Custom01 = False, 0
-				Custom02 = False, 0
-				Custom03 = False, 0
-				Custom04 = False, 0
-				Custom05 = False, 0
-				Custom06 = False, 0
-				Custom07 = False, 0
-				Custom08 = False, 0
-				Custom09 = False, 0
-				Custom10 = False, 0
-			}
-		}
-		VESSEL
-		{
-			pid = e80f5fba6da7457cacab212c9fb2420e
-			name = Gilligan Debris
-			type = Debris
-			sit = LANDED
-			landed = True
-			landedAt = LaunchPad
-			splashed = False
-			met = 25.2000000005501
-			lct = 16003.8305371461
-			root = 0
-			lat = -0.102850779210916
-			lon = -74.5759370667991
-			alt = 82.8678505196003
-			hgt = 14.55031
-			nrm = -1.504016E-06,1,-1.5157E-06
-			rot = -0.4969202,0.3532534,-0.5039014,0.6118544
-			CoM = 0,0,0
-			stg = 0
-			prst = False
-			eva = False
-			ref = 0
-			cPch = 0
-			cHdg = 0
-			cMod = -1
-			ORBIT
-			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 105.424037388923
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 30933.5871387241
-				REF = 1
-				OBJ = 1
-			}
-			PART
-			{
-				name = launchClamp1
-				uid = 897252696
-				parent = 0
-				position = 0,0,0
-				rotation = 0,0,0,1.000001
-				mirror = 1,1,1
-				istg = 7
-				dstg = 4
-				sqor = 7
-				sidx = 34
-				attm = 1
-				srfN = None, -1
-				mass = 0.1
-				temp = 19.3678
-				expt = 0.1
-				state = 1
-				connected = False
-				attached = False
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				MODULE
-				{
-					name = LaunchClamp
-					isEnabled = True
-					scaleFactor = 6.028247
-					height = 15.21046
+					scaleFactor = 3.789912
+					height = 9.562693
 					towerRot = 0,0,0,1
 					EVENTS
 					{
