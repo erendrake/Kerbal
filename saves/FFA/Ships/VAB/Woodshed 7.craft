@@ -6683,7 +6683,6 @@ PART
 	link = strutConnector_4286428568
 	link = strutConnector_4286428512
 	link = strutConnector_4286428456
-	link = mumech.mechjebrad_4286427338
 	attN = top,decoupler1-2_4286461756
 	attN = bottom,fuelTank1-2_4286461662
 	EVENTS
@@ -21921,7 +21920,6 @@ PART
 	sidx = -1
 	sqor = -1
 	attm = 0
-	link = crewManifest_4286443494
 	sym = batteryBank_4286435402
 	attN = bottom,batteryBank_4286443546
 	EVENTS
@@ -21929,60 +21927,6 @@ PART
 	}
 	ACTIONS
 	{
-	}
-}
-PART
-{
-	part = crewManifest_4286443494
-	partName = Part
-	pos = -19.59774,10.04054,-0.8336683
-	rot = -0.4999999,-0.5000015,0.4999995,-0.5
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 8
-	dstg = 8
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,batteryBank_4286443520
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = CrewManifestModule
-		isEnabled = True
-		EVENTS
-		{
-			ShowWindow
-			{
-				active = True
-				guiActive = True
-				guiIcon = View Manifest
-				guiName = View Manifest
-				category = View Manifest
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-			HideWindow
-			{
-				active = True
-				guiActive = True
-				guiIcon = Hide Manifest
-				guiName = Hide Manifest
-				category = Hide Manifest
-				guiActiveUnfocused = False
-				unfocusedRange = 2
-				externalToEVAOnly = True
-			}
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART
@@ -34024,72 +33968,6 @@ PART
 	}
 	ACTIONS
 	{
-	}
-}
-PART
-{
-	part = mumech.mechjebrad_4286427338
-	partName = MuMechJeb
-	pos = -8.862179,25.70029,-0.8704275
-	rot = 0,0.7071069,0,-0.7071069
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 6
-	dstg = 6
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,fuelTank4-2_4286461690
-	EVENTS
-	{
-		MakeReference
-		{
-			active = True
-			guiActive = True
-			guiIcon = Control From Here
-			guiName = Control From Here
-			category = Control From Here
-			guiActiveUnfocused = False
-			unfocusedRange = 2
-			externalToEVAOnly = True
-		}
-		RenameVessel
-		{
-			active = True
-			guiActive = True
-			guiIcon = Rename Vessel
-			guiName = Rename Vessel
-			category = Rename Vessel
-			guiActiveUnfocused = False
-			unfocusedRange = 2
-			externalToEVAOnly = True
-		}
-		MechJebLua
-		{
-			active = False
-			guiActive = False
-			guiIcon = 
-			guiName = 
-			category = 
-			guiActiveUnfocused = False
-			unfocusedRange = 0
-			externalToEVAOnly = False
-		}
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
 	}
 }
 PART

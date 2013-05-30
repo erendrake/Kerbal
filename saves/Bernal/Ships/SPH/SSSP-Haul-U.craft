@@ -524,7 +524,6 @@ PART
 	link = ladder1_4293323826
 	link = SmallGearBay_4293323054
 	link = SmallGearBay_4293322886
-	link = mumech.mechjebrad_4293320998
 	attN = bottom,mk2SpacePlaneAdapter_4293331866
 	EVENTS
 	{
@@ -9926,72 +9925,6 @@ PART
 			{
 				actionGroup = None
 			}
-		}
-	}
-}
-PART
-{
-	part = mumech.mechjebrad_4293320998
-	partName = MuMechJeb
-	pos = -1.395787,13.62617,4.357438
-	rot = -0.6532816,-0.2705981,-0.270598,-0.6532816
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	attm = 1
-	srfN = srfAttach,mk3spacePlaneAdapter_4293331840
-	EVENTS
-	{
-		MakeReference
-		{
-			active = True
-			guiActive = True
-			guiIcon = Control From Here
-			guiName = Control From Here
-			category = Control From Here
-			guiActiveUnfocused = False
-			unfocusedRange = 2
-			externalToEVAOnly = True
-		}
-		RenameVessel
-		{
-			active = True
-			guiActive = True
-			guiIcon = Rename Vessel
-			guiName = Rename Vessel
-			category = Rename Vessel
-			guiActiveUnfocused = False
-			unfocusedRange = 2
-			externalToEVAOnly = True
-		}
-		MechJebLua
-		{
-			active = False
-			guiActive = False
-			guiIcon = 
-			guiName = 
-			category = 
-			guiActiveUnfocused = False
-			unfocusedRange = 0
-			externalToEVAOnly = False
-		}
-	}
-	ACTIONS
-	{
-	}
-	MODULE
-	{
-		name = ModuleCommand
-		isEnabled = True
-		controlSrcStatusText = 
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 	}
 }
